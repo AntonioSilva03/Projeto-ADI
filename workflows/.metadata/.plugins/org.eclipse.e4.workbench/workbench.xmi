@@ -14,6 +14,16 @@
     <children xsi:type="basic:PartSashContainer" xmi:id="_qYU84do0Ee6Z-eR1_Qp9Mg" selectedElement="_qYU84to0Ee6Z-eR1_Qp9Mg" horizontal="true">
       <children xsi:type="advanced:PerspectiveStack" xmi:id="_qYU84to0Ee6Z-eR1_Qp9Mg" elementId="org.eclipse.ui.ide.perspectivestack" containerData="7500" selectedElement="_qeDxcNo0Ee6Z-eR1_Qp9Mg">
         <children xsi:type="advanced:Perspective" xmi:id="_qeDxcNo0Ee6Z-eR1_Qp9Mg" elementId="org.knime.ui.java.perspective" contributorURI="platform:/plugin/org.knime.ui.java" selectedElement="_qeDxcdo0Ee6Z-eR1_Qp9Mg" label="KNIME Modern UI" iconURI="platform:/plugin/org.knime.ui.java/icons/knime.png">
+          <tags>persp.actionSet:org.eclipse.ui.cheatsheets.actionSet</tags>
+          <tags>persp.actionSet:org.eclipse.search.searchActionSet</tags>
+          <tags>persp.actionSet:org.eclipse.text.quicksearch.actionSet</tags>
+          <tags>persp.actionSet:org.eclipse.ui.edit.text.actionSet.annotationNavigation</tags>
+          <tags>persp.actionSet:org.eclipse.ui.edit.text.actionSet.navigation</tags>
+          <tags>persp.actionSet:org.eclipse.ui.edit.text.actionSet.convertLineDelimitersTo</tags>
+          <tags>persp.actionSet:org.eclipse.ui.externaltools.ExternalToolsSet</tags>
+          <tags>persp.actionSet:org.eclipse.ui.actionSet.keyBindings</tags>
+          <tags>persp.actionSet:org.eclipse.ui.actionSet.openFiles</tags>
+          <tags>persp.actionSet:org.knime.workbench.ui.global</tags>
           <children xsi:type="basic:Part" xmi:id="_qeDxcdo0Ee6Z-eR1_Qp9Mg" elementId="org.knime.ui.java.browser.view" contributorURI="platform:/plugin/org.knime.ui.java" contributionURI="bundleclass://org.knime.ui.java/org.knime.ui.java.browser.KnimeBrowserView" iconURI="platform:/plugin/org.knime.ui.java/icons/knime.png">
             <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;view/>"/>
             <tags>activeOnClose</tags>
@@ -42,6 +52,12 @@
       <persistedState key="originalCompatibilityViewBundle" value="org.eclipse.ui.cheatsheets"/>
       <tags>View</tags>
       <tags>categoryTag:Other</tags>
+    </sharedElements>
+    <sharedElements xsi:type="advanced:Area" xmi:id="_04FwcNzeEe6tZYCYswJFVg" elementId="org.eclipse.ui.editorss">
+      <children xsi:type="basic:PartStack" xmi:id="_04FwcdzeEe6tZYCYswJFVg" elementId="org.eclipse.e4.primaryDataStack">
+        <tags>org.eclipse.e4.primaryDataStack</tags>
+        <tags>EditorStack</tags>
+      </children>
     </sharedElements>
     <trimBars xmi:id="_qNAdsto0Ee6Z-eR1_Qp9Mg" elementId="org.eclipse.ui.main.toolbar" contributorURI="platform:/plugin/org.eclipse.ui.workbench" visible="false">
       <children xsi:type="menu:ToolBar" xmi:id="_qc3eoNo0Ee6Z-eR1_Qp9Mg" elementId="main">
@@ -76,7 +92,9 @@
     <trimBars xmi:id="_qNAdt9o0Ee6Z-eR1_Qp9Mg" elementId="org.eclipse.ui.trim.vertical1" contributorURI="platform:/plugin/org.eclipse.ui.workbench" side="Left"/>
     <trimBars xmi:id="_qNAduNo0Ee6Z-eR1_Qp9Mg" elementId="org.eclipse.ui.trim.vertical2" contributorURI="platform:/plugin/org.eclipse.ui.workbench" side="Right"/>
   </children>
-  <handlers xmi:id="_RzFlYOH4Eeqv_LafONhFZw" elementId="org.knime.ui.java.handler.switch" contributorURI="platform:/plugin/org.knime.ui.java" contributionURI="bundleclass://org.knime.ui.java/org.knime.ui.java.SwitchToWebUIHandler" command="_XgFkcOH4Eeqv_LafONhFZw"/>
+  <handlers xmi:id="_RzFlYOH4Eeqv_LafONhFZw" elementId="org.knime.ui.java.handler.switch" contributorURI="platform:/plugin/org.knime.ui.java" contributionURI="bundleclass://org.knime.ui.java/org.knime.ui.java.SwitchToWebUIHandler">
+    <command href="platform:/plugin/org.knime.ui.java/fragment.e4xmi#_XgFkcOH4Eeqv_LafONhFZw"/>
+  </handlers>
   <bindingTables xmi:id="_qNAdudo0Ee6Z-eR1_Qp9Mg" contributorURI="platform:/plugin/org.eclipse.ui.workbench" bindingContext="_qNAduto0Ee6Z-eR1_Qp9Mg">
     <bindings xmi:id="_qN09Hto0Ee6Z-eR1_Qp9Mg" keySequence="CTRL+F10" command="_qNgNKdo0Ee6Z-eR1_Qp9Mg"/>
     <bindings xmi:id="_qN1kIdo0Ee6Z-eR1_Qp9Mg" keySequence="CTRL+INSERT" command="_qNe-4to0Ee6Z-eR1_Qp9Mg"/>
@@ -1118,7 +1136,7 @@
   <addons xmi:id="_qNAdxto0Ee6Z-eR1_Qp9Mg" elementId="MinMax Addon" contributorURI="platform:/plugin/org.eclipse.ui.workbench" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.addons.swt/org.eclipse.e4.ui.workbench.addons.minmax.MinMaxAddon"/>
   <addons xmi:id="_qNAdx9o0Ee6Z-eR1_Qp9Mg" elementId="org.eclipse.ui.workbench.addon.0" contributorURI="platform:/plugin/org.eclipse.ui.workbench" contributionURI="bundleclass://org.eclipse.e4.ui.workbench/org.eclipse.e4.ui.internal.workbench.addons.HandlerProcessingAddon"/>
   <addons xmi:id="_qNNSANo0Ee6Z-eR1_Qp9Mg" elementId="SplitterAddon" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.addons.swt/org.eclipse.e4.ui.workbench.addons.splitteraddon.SplitterAddon"/>
-  <addons xmi:id="_IYS0IKimEeS11vbz3f9ezw" elementId="org.eclipse.ui.ide.addon.0" contributorURI="platform:/plugin/org.eclipse.ui.ide" contributionURI="bundleclass://org.eclipse.ui.ide/org.eclipse.ui.internal.ide.addons.SaveAllDirtyPartsAddon"/>
+  <addons xmi:id="_0wjlENzeEe6tZYCYswJFVg" elementId="org.eclipse.ui.ide.addon.0" contributionURI="bundleclass://org.eclipse.ui.ide/org.eclipse.ui.internal.ide.addons.SaveAllDirtyPartsAddon"/>
   <addons xmi:id="_dz0JgGOlEeSMMaPQU2nlzw" elementId="org.eclipse.ui.ide.application.addon.0" contributorURI="platform:/plugin/org.eclipse.ui.ide.application" contributionURI="bundleclass://org.eclipse.ui.ide.application/org.eclipse.ui.internal.ide.application.addons.ModelCleanupAddon"/>
   <addons xmi:id="_PIzMwOIhEeqv_LafONhFZw" elementId="org.knime.ui.java.addon.0" contributorURI="platform:/plugin/org.knime.ui.java" contributionURI="bundleclass://org.knime.ui.java/org.knime.ui.java.PerspectiveSwitchAddon"/>
   <addons xmi:id="_QJa40OK8EeqdIqprVKVB4Q" elementId="org.knime.ui.java.addon.1" contributorURI="platform:/plugin/org.knime.ui.java" contributionURI="bundleclass://org.knime.ui.java/org.knime.ui.java.AppStartupCompleteAddon"/>
