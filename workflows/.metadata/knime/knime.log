@@ -142,3 +142,55 @@ Row121 | ..     | 7,09   | NA     | 63
                           ^^^^^^^
 For input string: "NA"
 2024-03-16 17:10:58,473 : WARN  : ModalContext :  : Node : Missing Value : 3:12 : The current settings use missing value handling methods that cannot be represented in PMML 4.2.
+2024-03-16 21:58:43,184 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : PowerShell command powershell -inputformat none -outputformat text -NonInteractive -Command Get-Item -Path 'Registry::HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows Defender\Exclusions\Processes' -ErrorAction Stop | Select-Object -ExpandProperty Property did not terminate successfully.
+2024-03-16 21:58:43,185 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : Stderr is:
+2024-03-16 21:58:43,185 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : Get-Item : O pedido de acesso ao Registo nÆo ‚ permitido.
+2024-03-16 21:58:43,185 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : At line:1 char:1
+2024-03-16 21:58:43,185 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : + Get-Item -Path 'Registry::HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windo ...
+2024-03-16 21:58:43,186 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : + ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2024-03-16 21:58:43,186 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :     + CategoryInfo          : PermissionDenied: (HKEY_LOCAL_MACH...sions\Processes:String) [Get-Item], SecurityExcepti 
+2024-03-16 21:58:43,186 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :    on
+2024-03-16 21:58:43,186 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :     + FullyQualifiedErrorId : System.Security.SecurityException,Microsoft.PowerShell.Commands.GetItemCommand
+2024-03-16 21:58:43,186 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :  
+2024-03-16 21:58:49,448 : WARN  : ModalContext :  : Node : String to Number : 3:11 : Problems in 31 rows, first error: "NA" in cell ["Row121", column "CHOL", row 122] can not be transformed into a number
+RowID  |   ..   |  CHE   |  CHOL  |  CREA 
+------------------------------------------
+Row119 | ..     | 8,84   | 5,92   | 95    
+Row120 | ..     | 8,55   | 5,27   | 97    
+Row121 | ..     | 7,09   | NA     | 63    
+                          ^^^^^^^
+For input string: "NA"
+2024-03-16 21:58:49,480 : WARN  : ModalContext :  : Node : Missing Value : 3:12 : The current settings use missing value handling methods that cannot be represented in PMML 4.2.
+2024-03-16 22:01:36,841 : WARN  : KNIME-Worker-0-String to Number 3:11 :  : Node : String to Number : 3:11 : Problems in 31 rows, first error: "NA" in cell ["Row121", column "CHOL", row 122] can not be transformed into a number
+2024-03-16 22:01:36,848 : WARN  : KNIME-Worker-0-String to Number 3:11 :  : Node : String to Number : 3:11 : Problems in 31 rows, first error: "NA" in cell ["Row121", column "CHOL", row 122] can not be transformed into a number
+RowID  |   ..   |  CHE   |  CHOL  |  CREA 
+------------------------------------------
+Row119 | ..     | 8,84   | 5,92   | 95    
+Row120 | ..     | 8,55   | 5,27   | 97    
+Row121 | ..     | 7,09   | NA     | 63    
+                          ^^^^^^^
+For input string: "NA"
+2024-03-16 22:02:36,395 : WARN  : KNIME-Worker-2-Missing Value 3:12 :  : Node : Missing Value : 3:12 : The current settings use missing value handling methods that cannot be represented in PMML 4.2.
+2024-03-16 22:06:08,664 : WARN  : ModalContext :  : Node : CSV Reader : 4:1 : Please specify a file
+2024-03-16 22:06:08,665 : WARN  : ModalContext :  : Node : CSV Reader : 4:1 : Please specify a file
+2024-03-16 22:14:50,528 : WARN  : KNIME-Worker-3-Missing Value 3:21 :  : Node : Missing Value : 3:21 : The current settings use missing value handling methods that cannot be represented in PMML 4.2.
+2024-03-16 22:14:54,769 : WARN  : KNIME-Worker-4-String to Number 3:11 :  : Node : String to Number : 3:11 : Problems in 31 rows, first error: "NA" in cell ["Row121", column "CHOL", row 114] can not be transformed into a number
+2024-03-16 22:14:54,770 : WARN  : KNIME-Worker-4-String to Number 3:11 :  : Node : String to Number : 3:11 : Problems in 31 rows, first error: "NA" in cell ["Row121", column "CHOL", row 114] can not be transformed into a number
+RowID  |   ..   |  CHE   |  CHOL  |  CREA 
+------------------------------------------
+Row119 | ..     | 8,84   | 5,92   | 95    
+Row120 | ..     | 8,55   | 5,27   | 97    
+Row121 | ..     | 7,09   | NA     | 63    
+                          ^^^^^^^
+For input string: "NA"
+2024-03-16 22:14:56,730 : WARN  : KNIME-Worker-4-Missing Value 3:12 :  : Node : Missing Value : 3:12 : The current settings use missing value handling methods that cannot be represented in PMML 4.2.
+2024-03-16 23:07:49,031 : WARN  : ModalContext :  : Node : Missing Value : 5:21 : The current settings use missing value handling methods that cannot be represented in PMML 4.2.
+2024-03-16 23:07:49,056 : WARN  : ModalContext :  : Node : String to Number : 5:11 : Problems in 31 rows, first error: "NA" in cell ["Row121", column "CHOL", row 114] can not be transformed into a number
+RowID  |   ..   |  CHE   |  CHOL  |  CREA 
+------------------------------------------
+Row119 | ..     | 8,84   | 5,92   | 95    
+Row120 | ..     | 8,55   | 5,27   | 97    
+Row121 | ..     | 7,09   | NA     | 63    
+                          ^^^^^^^
+For input string: "NA"
+2024-03-16 23:07:49,062 : WARN  : ModalContext :  : Node : Missing Value : 5:12 : The current settings use missing value handling methods that cannot be represented in PMML 4.2.

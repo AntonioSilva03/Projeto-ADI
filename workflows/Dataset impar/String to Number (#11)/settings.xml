@@ -49,22 +49,6 @@
         </config>
         <entry key="generic_parse" type="xboolean" value="false"/>
         <entry key="fail_on_error" type="xboolean" value="false"/>
-        <config key="decimal_separator_Internals">
-            <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
-            <entry key="EnabledStatus" type="xboolean" value="true"/>
-        </config>
-        <config key="thousands_separator_Internals">
-            <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
-            <entry key="EnabledStatus" type="xboolean" value="true"/>
-        </config>
-        <config key="generic_parse_Internals">
-            <entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
-            <entry key="EnabledStatus" type="xboolean" value="true"/>
-        </config>
-        <config key="fail_on_error_Internals">
-            <entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
-            <entry key="EnabledStatus" type="xboolean" value="true"/>
-        </config>
     </config>
     <config key="nodeAnnotation">
         <entry key="text" type="xstring" value="Transformar todos os strings %%00010importantes em numbers"/>
@@ -85,7 +69,7 @@
     <entry key="state" type="xstring" value="EXECUTED"/>
     <config key="nodecontainer_message">
         <entry key="type" type="xstring" value="WARNING"/>
-        <entry key="message" type="xstring" value="Problems in 31 rows, first error: &quot;NA&quot; in cell [&quot;Row121&quot;, column &quot;CHOL&quot;, row 122] can not be transformed into a number"/>
+        <entry key="message" type="xstring" value="Problems in 31 rows, first error: &quot;NA&quot; in cell [&quot;Row121&quot;, column &quot;CHOL&quot;, row 114] can not be transformed into a number"/>
         <entry key="issue" type="xstring" value="RowID  |   ..   |  CHE   |  CHOL  |  CREA %%00010------------------------------------------%%00010Row119 | ..     | 8,84   | 5,92   | 95    %%00010Row120 | ..     | 8,55   | 5,27   | 97    %%00010Row121 | ..     | 7,09   | NA     | 63    %%00010                          ^^^^^^^%%00010For input string: &quot;NA&quot;%%00010"/>
     </config>
     <entry key="factory" type="xstring" value="org.knime.base.node.preproc.colconvert.stringtonumber2.StringToNumber2NodeFactory"/>
@@ -107,12 +91,12 @@
             <entry key="index" type="xint" value="1"/>
             <entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
             <entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
-            <entry key="port_object_summary" type="xstring" value="Rows: 615, Cols: 13"/>
+            <entry key="port_object_summary" type="xstring" value="Rows: 571, Cols: 13"/>
             <entry key="port_dir_location" type="xstring" value="port_1"/>
         </config>
     </config>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" value="f28ac492-e6ec-4f9b-877c-e221e6f5d998"/>
+        <entry key="file_store_id" type="xstring" value="7215b349-81a5-46bf-8c42-bedbfa570c9a"/>
     </config>
 </config>
