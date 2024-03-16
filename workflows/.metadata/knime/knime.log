@@ -1,1 +1,144 @@
 2024-03-04 15:38:34,001 : WARN  : comm-pool-thread-1 :  : Node : CSV Reader : 3:1 : Please specify a file
+2024-03-14 11:23:39,774 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : PowerShell command powershell -inputformat none -outputformat text -NonInteractive -Command Get-Item -Path 'Registry::HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows Defender\Exclusions\Processes' -ErrorAction Stop | Select-Object -ExpandProperty Property did not terminate successfully.
+2024-03-14 11:23:39,775 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : Stderr is:
+2024-03-14 11:23:39,775 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : Get-Item : O pedido de acesso ao Registo nÆo ‚ permitido.
+2024-03-14 11:23:39,775 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : At line:1 char:1
+2024-03-14 11:23:39,775 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : + Get-Item -Path 'Registry::HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windo ...
+2024-03-14 11:23:39,775 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : + ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2024-03-14 11:23:39,775 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :     + CategoryInfo          : PermissionDenied: (HKEY_LOCAL_MACH...sions\Processes:String) [Get-Item], SecurityExcepti 
+2024-03-14 11:23:39,775 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :    on
+2024-03-14 11:23:39,776 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :     + FullyQualifiedErrorId : System.Security.SecurityException,Microsoft.PowerShell.Commands.GetItemCommand
+2024-03-14 11:23:39,776 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :  
+2024-03-14 11:41:21,076 : WARN  : KNIME-Worker-1-Missing Value 3:4 :  : Node : Missing Value : 3:4 : Column "birth_location" still contains missing values.
+2024-03-14 11:42:15,984 : WARN  : comm-pool-thread-5 :  : Node : Linear Correlation : 3:5 : Auto configuration: Using all suitable columns (in total 18)
+2024-03-14 11:42:57,553 : WARN  : KNIME-Worker-1-Missing Value 3:4 :  : Node : Missing Value : 3:4 : The current settings use missing value handling methods that cannot be represented in PMML 4.2.
+2024-03-14 11:44:21,130 : WARN  : comm-pool-thread-6 :  : Node : Numeric Outliers : 3:8 : Auto configuration: Outlier Selection uses all suitable columns (in total 5).
+2024-03-14 11:44:47,983 : WARN  : main :  : Node : Numeric Outliers : 3:8 : Please include at least one numerical column
+2024-03-14 11:46:35,288 : WARN  : comm-pool-thread-7 :  : Node : CSV Reader : 4:1 : Please specify a file
+2024-03-16 12:24:05,695 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : PowerShell command powershell -inputformat none -outputformat text -NonInteractive -Command Get-Item -Path 'Registry::HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows Defender\Exclusions\Processes' -ErrorAction Stop | Select-Object -ExpandProperty Property did not terminate successfully.
+2024-03-16 12:24:05,696 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : Stderr is:
+2024-03-16 12:24:05,696 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : Get-Item : O pedido de acesso ao Registo nÆo ‚ permitido.
+2024-03-16 12:24:05,696 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : At line:1 char:1
+2024-03-16 12:24:05,696 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : + Get-Item -Path 'Registry::HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windo ...
+2024-03-16 12:24:05,696 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : + ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2024-03-16 12:24:05,696 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :     + CategoryInfo          : PermissionDenied: (HKEY_LOCAL_MACH...sions\Processes:String) [Get-Item], SecurityExcepti 
+2024-03-16 12:24:05,696 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :    on
+2024-03-16 12:24:05,696 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :     + FullyQualifiedErrorId : System.Security.SecurityException,Microsoft.PowerShell.Commands.GetItemCommand
+2024-03-16 12:24:05,696 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :  
+2024-03-16 12:24:18,296 : WARN  : ModalContext :  : Node : CSV Reader : 3:1 : Please specify a file
+2024-03-16 12:24:18,298 : WARN  : ModalContext :  : Node : CSV Reader : 3:1 : Please specify a file
+2024-03-16 12:25:17,375 : WARN  : ModalContext :  : Node : Missing Value : 4:4 : The current settings use missing value handling methods that cannot be represented in PMML 4.2.
+2024-03-16 14:08:56,434 : ERROR : KNIME-Worker-4-Bar Chart (JavaScript) 4:10 :  : Node : Bar Chart (JavaScript) : 4:10 : Execute failed: No column selected for category values.
+java.lang.IllegalArgumentException: No column selected for category values.
+	at org.knime.dynamic.js.base.grouped.GroupedProcessor.processInputObjects(GroupedProcessor.java:83)
+	at org.knime.dynamic.js.base.grouped.GroupedProcessor.processInputObjects(GroupedProcessor.java:57)
+	at org.knime.dynamic.js.v30.DynamicJSNodeModel.performExecuteCreateView(DynamicJSNodeModel.java:655)
+	at org.knime.js.core.node.AbstractImageWizardNodeModel.performExecute(AbstractImageWizardNodeModel.java:102)
+	at org.knime.js.core.node.AbstractWizardNodeModel.execute(AbstractWizardNodeModel.java:137)
+	at org.knime.core.node.NodeModel.executeModel(NodeModel.java:588)
+	at org.knime.core.node.Node.invokeFullyNodeModelExecute(Node.java:1297)
+	at org.knime.core.node.Node.execute(Node.java:1059)
+	at org.knime.core.node.workflow.NativeNodeContainer.performExecuteNode(NativeNodeContainer.java:595)
+	at org.knime.core.node.exec.LocalNodeExecutionJob.mainExecute(LocalNodeExecutionJob.java:98)
+	at org.knime.core.node.workflow.NodeExecutionJob.internalRun(NodeExecutionJob.java:201)
+	at org.knime.core.node.workflow.NodeExecutionJob.run(NodeExecutionJob.java:117)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:367)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:221)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:123)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:246)
+2024-03-16 14:58:58,809 : WARN  : KNIME-Worker-9-String to Number 4:11 :  : Node : String to Number : 4:11 : Problems in 1230 rows, first error: "M" in cell ["Row0", column "Sex", row 1] can not be transformed into a number
+2024-03-16 14:58:58,813 : WARN  : KNIME-Worker-9-String to Number 4:11 :  : Node : String to Number : 4:11 : Problems in 1230 rows, first error: "M" in cell ["Row0", column "Sex", row 1] can not be transformed into a number
+RowID  |   ..   | day_of_birth |  Sex   |  ALB  
+------------------------------------------------
+Row0   | ..     | 19           | M      | 38,5  
+                                ^^^^^^^
+For input string: "M"
+2024-03-16 14:59:11,593 : WARN  : KNIME-Worker-8-String to Number 4:11 :  : Node : String to Number : 4:11 : Problems in 4921 rows, first error: "38,5" in cell ["Row0", column "ALB", row 1] can not be transformed into a number
+2024-03-16 14:59:11,594 : WARN  : KNIME-Worker-8-String to Number 4:11 :  : Node : String to Number : 4:11 : Problems in 4921 rows, first error: "38,5" in cell ["Row0", column "ALB", row 1] can not be transformed into a number
+RowID  |   ..   |  Sex   |  ALB   |  ALP  
+------------------------------------------
+Row0   | ..     | M      | 38,5   | 52,5  
+                          ^^^^^^^
+For input string: "38,5"
+2024-03-16 14:59:27,420 : WARN  : KNIME-Worker-9-String to Number 4:11 :  : Node : String to Number : 4:11 : Problems in 31 rows, first error: "NA" in cell ["Row121", column "CHOL", row 122] can not be transformed into a number
+2024-03-16 14:59:27,421 : WARN  : KNIME-Worker-9-String to Number 4:11 :  : Node : String to Number : 4:11 : Problems in 31 rows, first error: "NA" in cell ["Row121", column "CHOL", row 122] can not be transformed into a number
+RowID  |   ..   |  CHE   |  CHOL  |  CREA 
+------------------------------------------
+Row119 | ..     | 8,84   | 5,92   | 95    
+Row120 | ..     | 8,55   | 5,27   | 97    
+Row121 | ..     | 7,09   | NA     | 63    
+                          ^^^^^^^
+For input string: "NA"
+2024-03-16 15:06:10,780 : WARN  : KNIME-Worker-12-String to Number 4:11 :  : Node : String to Number : 4:11 : Problems in 31 rows, first error: "NA" in cell ["Row121", column "CHOL", row 122] can not be transformed into a number
+2024-03-16 15:06:10,781 : WARN  : KNIME-Worker-12-String to Number 4:11 :  : Node : String to Number : 4:11 : Problems in 31 rows, first error: "NA" in cell ["Row121", column "CHOL", row 122] can not be transformed into a number
+RowID  |   ..   |  CHE   |  CHOL  |  CREA 
+------------------------------------------
+Row119 | ..     | 8,84   | 5,92   | 95    
+Row120 | ..     | 8,55   | 5,27   | 97    
+Row121 | ..     | 7,09   | NA     | 63    
+                          ^^^^^^^
+For input string: "NA"
+2024-03-16 15:07:23,458 : WARN  : KNIME-Worker-12-Missing Value 4:13 :  : Node : Missing Value : 4:13 : The current settings use missing value handling methods that cannot be represented in PMML 4.2.
+Column "ALT" still contains missing values.
+Column "ALB" still contains missing values.
+2024-03-16 15:12:37,589 : WARN  : KNIME-Worker-14-String to Number 4:11 :  : Node : String to Number : 4:11 : Problems in 6151 rows, first error: "M" in cell ["Row0", column "Sex", row 1] can not be transformed into a number
+2024-03-16 15:12:37,590 : WARN  : KNIME-Worker-14-String to Number 4:11 :  : Node : String to Number : 4:11 : Problems in 6151 rows, first error: "M" in cell ["Row0", column "Sex", row 1] can not be transformed into a number
+RowID  |   ..   | day_of_birth |  Sex   |  ALB  
+------------------------------------------------
+Row0   | ..     | 19           | M      | 38,5  
+                                ^^^^^^^
+For input string: "M"
+2024-03-16 15:12:47,802 : WARN  : KNIME-Worker-15-String to Number 4:11 :  : Node : String to Number : 4:11 : Problems in 4921 rows, first error: "38,5" in cell ["Row0", column "ALB", row 1] can not be transformed into a number
+2024-03-16 15:12:47,803 : WARN  : KNIME-Worker-15-String to Number 4:11 :  : Node : String to Number : 4:11 : Problems in 4921 rows, first error: "38,5" in cell ["Row0", column "ALB", row 1] can not be transformed into a number
+RowID  |   ..   |  Sex   |  ALB   |  ALP  
+------------------------------------------
+Row0   | ..     | M      | 38,5   | 52,5  
+                          ^^^^^^^
+For input string: "38,5"
+2024-03-16 15:12:56,072 : WARN  : KNIME-Worker-14-String to Number 4:11 :  : Node : String to Number : 4:11 : Problems in 31 rows, first error: "NA" in cell ["Row121", column "CHOL", row 122] can not be transformed into a number
+2024-03-16 15:12:56,073 : WARN  : KNIME-Worker-14-String to Number 4:11 :  : Node : String to Number : 4:11 : Problems in 31 rows, first error: "NA" in cell ["Row121", column "CHOL", row 122] can not be transformed into a number
+RowID  |   ..   |  CHE   |  CHOL  |  CREA 
+------------------------------------------
+Row119 | ..     | 8,84   | 5,92   | 95    
+Row120 | ..     | 8,55   | 5,27   | 97    
+Row121 | ..     | 7,09   | NA     | 63    
+                          ^^^^^^^
+For input string: "NA"
+2024-03-16 15:15:29,301 : WARN  : KNIME-Worker-16-Missing Value 4:12 :  : Node : Missing Value : 4:12 : Column "CHOL" still contains missing values.
+Column "ALT" still contains missing values.
+Column "ALP" still contains missing values.
+Column "PROT" still contains missing values.
+Column "ALB" still contains missing values.
+2024-03-16 15:35:48,885 : WARN  : KNIME-Worker-17-Missing Value 4:12 :  : Node : Missing Value : 4:12 : The current settings use missing value handling methods that cannot be represented in PMML 4.2.
+2024-03-16 16:49:46,225 : WARN  : KNIME-Worker-19-String to Number 4:11 :  : Node : String to Number : 4:11 : Problems in 31 rows, first error: "NA" in cell ["Row121", column "CHOL", row 122] can not be transformed into a number
+2024-03-16 16:49:46,227 : WARN  : KNIME-Worker-19-String to Number 4:11 :  : Node : String to Number : 4:11 : Problems in 31 rows, first error: "NA" in cell ["Row121", column "CHOL", row 122] can not be transformed into a number
+RowID  |   ..   |  CHE   |  CHOL  |  CREA 
+------------------------------------------
+Row119 | ..     | 8,84   | 5,92   | 95    
+Row120 | ..     | 8,55   | 5,27   | 97    
+Row121 | ..     | 7,09   | NA     | 63    
+                          ^^^^^^^
+For input string: "NA"
+2024-03-16 16:49:46,234 : WARN  : KNIME-Worker-20-Missing Value 4:12 :  : Node : Missing Value : 4:12 : The current settings use missing value handling methods that cannot be represented in PMML 4.2.
+2024-03-16 17:04:47,505 : WARN  : comm-pool-thread-31 :  : Node : Linear Correlation : 4:13 : Auto configuration: Using all suitable columns (in total 18)
+2024-03-16 17:10:53,967 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : PowerShell command powershell -inputformat none -outputformat text -NonInteractive -Command Get-Item -Path 'Registry::HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows Defender\Exclusions\Processes' -ErrorAction Stop | Select-Object -ExpandProperty Property did not terminate successfully.
+2024-03-16 17:10:53,968 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : Stderr is:
+2024-03-16 17:10:53,968 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : Get-Item : O pedido de acesso ao Registo nÆo ‚ permitido.
+2024-03-16 17:10:53,968 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : At line:1 char:1
+2024-03-16 17:10:53,968 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : + Get-Item -Path 'Registry::HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windo ...
+2024-03-16 17:10:53,968 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : + ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2024-03-16 17:10:53,968 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :     + CategoryInfo          : PermissionDenied: (HKEY_LOCAL_MACH...sions\Processes:String) [Get-Item], SecurityExcepti 
+2024-03-16 17:10:53,968 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :    on
+2024-03-16 17:10:53,968 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :     + FullyQualifiedErrorId : System.Security.SecurityException,Microsoft.PowerShell.Commands.GetItemCommand
+2024-03-16 17:10:53,968 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :  
+2024-03-16 17:10:58,448 : WARN  : ModalContext :  : Node : String to Number : 3:11 : Problems in 31 rows, first error: "NA" in cell ["Row121", column "CHOL", row 122] can not be transformed into a number
+RowID  |   ..   |  CHE   |  CHOL  |  CREA 
+------------------------------------------
+Row119 | ..     | 8,84   | 5,92   | 95    
+Row120 | ..     | 8,55   | 5,27   | 97    
+Row121 | ..     | 7,09   | NA     | 63    
+                          ^^^^^^^
+For input string: "NA"
+2024-03-16 17:10:58,473 : WARN  : ModalContext :  : Node : Missing Value : 3:12 : The current settings use missing value handling methods that cannot be represented in PMML 4.2.

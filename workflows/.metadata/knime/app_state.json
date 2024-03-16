@@ -1,5 +1,5 @@
 {
-  "version" : "5.2.1.v202401291517",
+  "version" : "5.2.2.v202403071655",
   "projects" : [ {
     "name" : "Dataset impar",
     "active" : true,
@@ -7,6 +7,14 @@
       "providerId" : "local",
       "spaceId" : "local",
       "relativePath" : "Dataset impar"
+    }
+  }, {
+    "name" : "Dataset Grupo",
+    "active" : false,
+    "origin" : {
+      "providerId" : "local",
+      "spaceId" : "local",
+      "relativePath" : "Dataset Grupo"
     }
   } ]
 }
