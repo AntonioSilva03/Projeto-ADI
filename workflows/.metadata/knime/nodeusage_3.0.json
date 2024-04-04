@@ -1,14 +1,14 @@
 {
-    "version": "5.2.2.v202403071655",
+    "version": "5.2.1.v202401291517",
     "created": "2024-03-04 15:37",
     "nodestats": {
         "nodes": [
             {
                 "id": "org.knime.base.node.io.filehandling.csv.reader.CSVTableReaderNodeFactory",
                 "nodename": "CSV Reader",
-                "nrexecs": 2,
+                "nrexecs": 7,
                 "nrfails": 0,
-                "exectime": 156,
+                "exectime": 476,
                 "nrcreated": 2,
                 "successor": "org.knime.base.node.stats.dataexplorer.DataExplorerNodeFactory",
                 "successornodename": "Data Explorer"
@@ -36,10 +36,10 @@
             {
                 "id": "org.knime.base.node.preproc.pmml.missingval.compute.MissingValueHandlerNodeFactory",
                 "nodename": "Missing Value",
-                "nrexecs": 9,
+                "nrexecs": 12,
                 "nrfails": 0,
-                "exectime": 252,
-                "nrcreated": 4,
+                "exectime": 551,
+                "nrcreated": 5,
                 "successor": "org.knime.base.node.preproc.filter.column.DataColumnSpecFilterNodeFactory",
                 "successornodename": "Column Filter"
             },
@@ -56,10 +56,10 @@
             {
                 "id": "org.knime.base.node.stats.dataexplorer.DataExplorerNodeFactory",
                 "nodename": "Data Explorer",
-                "nrexecs": 11,
+                "nrexecs": 23,
                 "nrfails": 0,
-                "exectime": 311,
-                "nrcreated": 3,
+                "exectime": 801,
+                "nrcreated": 4,
                 "successor": "n/a",
                 "successornodename": "n/a"
             },
@@ -96,12 +96,12 @@
             {
                 "id": "org.knime.base.node.rules.engine.RuleEngineNodeFactory",
                 "nodename": "Rule Engine",
-                "nrexecs": 12,
+                "nrexecs": 21,
                 "nrfails": 0,
-                "exectime": 84,
-                "nrcreated": 2,
-                "successor": "org.knime.base.node.preproc.colconvert.stringtonumber2.StringToNumber2NodeFactory",
-                "successornodename": "String to Number"
+                "exectime": 182,
+                "nrcreated": 3,
+                "successor": "org.knime.base.node.preproc.pmml.missingval.compute.MissingValueHandlerNodeFactory",
+                "successornodename": "Missing Value"
             },
             {
                 "id": "org.knime.dynamic.js.v30.DynamicJSNodeFactory#Bar Chart (JavaScript)",
@@ -172,6 +172,26 @@
                 "nrcreated": 2,
                 "successor": "n/a",
                 "successornodename": "n/a"
+            },
+            {
+                "id": "org.knime.base.node.stats.viz.extended.ExtendedStatisticsNodeFactory",
+                "nodename": "Statistics",
+                "nrexecs": 1,
+                "nrfails": 0,
+                "exectime": 2061,
+                "nrcreated": 1,
+                "successor": "n/a",
+                "successornodename": "n/a"
+            },
+            {
+                "id": "org.knime.base.views.node.barchart.BarChartNodeFactory",
+                "nodename": "Bar Chart",
+                "nrexecs": 22,
+                "nrfails": 0,
+                "exectime": 241,
+                "nrcreated": 1,
+                "successor": "n/a",
+                "successornodename": "n/a"
             }
         ],
         "metaNodes": {
@@ -179,11 +199,11 @@
         "wrappedNodes": {
         },
         "createdVia": {
-            "WEB_UI": 28
+            "WEB_UI": 33
         }
     },
-    "uptime": 3927842,
-    "workflowsOpened": 10,
+    "uptime": 6442577,
+    "workflowsOpened": 12,
     "remoteWorkflowsOpened": 0,
     "columnarStorageWorkflowsOpened": 0,
     "workflowsImported": 0,
@@ -191,9 +211,9 @@
     "webUIPerspectiveSwitches": 0,
     "javaUIPerspectiveSwitches": 0,
     "lastUsedPerspective": "none",
-    "launches": 6,
+    "launches": 7,
     "lastApplicationID": "org.knime.product.KNIME_APPLICATION",
-    "timeSinceLastStart": 4180084,
+    "timeSinceLastStart": 21530992,
     "crashes": 0,
     "properlyShutDown": true
 }

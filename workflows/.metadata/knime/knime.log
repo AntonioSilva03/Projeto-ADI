@@ -194,3 +194,54 @@ Row121 | ..     | 7,09   | NA     | 63
                           ^^^^^^^
 For input string: "NA"
 2024-03-16 23:07:49,062 : WARN  : ModalContext :  : Node : Missing Value : 5:12 : The current settings use missing value handling methods that cannot be represented in PMML 4.2.
+2024-04-04 15:01:15,242 : WARN  : ModalContext :  : Node : Missing Value : 4:21 : The current settings use missing value handling methods that cannot be represented in PMML 4.2.
+2024-04-04 15:01:15,497 : WARN  : ModalContext :  : Node : String to Number : 4:11 : Problems in 31 rows, first error: "NA" in cell ["Row121", column "CHOL", row 114] can not be transformed into a number
+RowID  |   ..   |  CHE   |  CHOL  |  CREA 
+------------------------------------------
+Row119 | ..     | 8,84   | 5,92   | 95    
+Row120 | ..     | 8,55   | 5,27   | 97    
+Row121 | ..     | 7,09   | NA     | 63    
+                          ^^^^^^^
+For input string: "NA"
+2024-04-04 15:01:15,542 : WARN  : ModalContext :  : Node : Missing Value : 4:12 : The current settings use missing value handling methods that cannot be represented in PMML 4.2.
+2024-04-04 18:03:46,885 : WARN  : main :  : WrappedNodeDialog : Rule Engine : 4:5 : failed to apply settings: line 5, col 0: Expected a number, boolean, string, column, a table property or flow variable reference.
+org.knime.core.node.InvalidSettingsException: line 5, col 0: Expected a number, boolean, string, column, a table property or flow variable reference.
+	at org.knime.base.node.rules.engine.RulePanel.saveSettings(RulePanel.java:571)
+	at org.knime.base.node.rules.engine.RuleEngineNodeDialog.saveSettingsTo(RuleEngineNodeDialog.java:114)
+	at org.knime.core.node.NodeDialogPane.internalSaveSettingsTo(NodeDialogPane.java:539)
+	at org.knime.core.node.NodeDialogPane$4.run(NodeDialogPane.java:778)
+	at org.knime.core.node.util.ViewUtils$3.run(ViewUtils.java:353)
+	at org.knime.core.node.util.ViewUtils$2.run(ViewUtils.java:155)
+	at java.desktop/java.awt.event.InvocationEvent.dispatch(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+	at java.desktop/java.awt.EventQueue$4.run(Unknown Source)
+	at java.desktop/java.awt.EventQueue$4.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Unknown Source)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.run(Unknown Source)
+Caused by: java.text.ParseException: line 5, col 0: Expected a number, boolean, string, column, a table property or flow variable reference.
+	at org.knime.base.node.rules.engine.BaseRuleParser.parseOperand(BaseRuleParser.java:1060)
+	at org.knime.base.node.rules.engine.BaseRuleParser.parseRelation(BaseRuleParser.java:837)
+	at org.knime.base.node.rules.engine.BaseRuleParser.parseRootBooleanExpression(BaseRuleParser.java:757)
+	at org.knime.base.node.rules.engine.BaseRuleParser.parseAndExpression(BaseRuleParser.java:712)
+	at org.knime.base.node.rules.engine.BaseRuleParser.parseXorExpression(BaseRuleParser.java:689)
+	at org.knime.base.node.rules.engine.BaseRuleParser.parseOrExpression(BaseRuleParser.java:666)
+	at org.knime.base.node.rules.engine.BaseRuleParser.parseBooleanExpression(BaseRuleParser.java:654)
+	at org.knime.base.node.rules.engine.SimpleRuleParser.parseCondition(SimpleRuleParser.java:278)
+	at org.knime.base.node.rules.engine.SimpleRuleParser.parse(SimpleRuleParser.java:230)
+	at org.knime.base.node.rules.engine.RuleFactory.parse(RuleFactory.java:191)
+	at org.knime.base.node.rules.engine.RulePanel.computeRules(RulePanel.java:468)
+	at org.knime.base.node.rules.engine.RulePanel.computeRules(RulePanel.java:496)
+	at org.knime.base.node.rules.engine.RulePanel.computeRules(RulePanel.java:507)
+	at org.knime.base.node.rules.engine.RulePanel.saveSettings(RulePanel.java:569)
+	... 18 more
+2024-04-04 18:16:35,763 : WARN  : Worker-0: Find profile sources :  : ProfilesSettingsPage :  :  : Could not check https://api.hub.knime.com/knime/rest for customization profiles because user is not logged in.
+2024-04-04 18:16:41,056 : WARN  : ForkJoinPool.commonPool-worker-4 :  : ProfilesSettingsPage :  :  : Could not check https://api.hub.knime.com/knime/rest for customization profiles because user is not logged in.
+2024-04-04 19:01:01,393 : WARN  : KNIME-Worker-41-Missing Value 4:8 :  : Node : Missing Value : 4:8 : Column "birth_location" still contains missing values.
+2024-04-04 19:09:18,807 : WARN  : KNIME-Worker-47-Missing Value 4:8 :  : Node : Missing Value : 4:8 : The current settings use missing value handling methods that cannot be represented in PMML 4.2.
