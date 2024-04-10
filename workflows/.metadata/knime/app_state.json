@@ -2,7 +2,7 @@
   "version" : "5.2.1.v202401291517",
   "projects" : [ {
     "name" : "Dataset Grupo",
-    "active" : true,
+    "active" : false,
     "origin" : {
       "providerId" : "local",
       "spaceId" : "local",
@@ -10,7 +10,7 @@
     }
   }, {
     "name" : "Dataset impar",
-    "active" : false,
+    "active" : true,
     "origin" : {
       "providerId" : "local",
       "spaceId" : "local",

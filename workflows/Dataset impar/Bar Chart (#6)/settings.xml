@@ -7,7 +7,7 @@
     </config>
     <config key="model">
         <config key="categoryColumn">
-            <entry key="selected" type="xstring" value="Sex"/>
+            <entry key="selected" type="xstring" value="Category"/>
             <config key="compatibleTypes_Internals">
                 <entry key="array-size" type="xint" value="3"/>
                 <entry key="0" type="xstring" value="org.knime.core.data.StringValue"/>
@@ -112,6 +112,6 @@
     </config>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" value="82c88c9d-ff11-4143-acda-7fd309c40b33"/>
+        <entry key="file_store_id" type="xstring" value="e032b159-6ed9-4342-8a20-557c20e7e193"/>
     </config>
 </config>

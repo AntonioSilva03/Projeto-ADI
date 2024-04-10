@@ -686,7 +686,7 @@
                         <entry key="limit_data_rows_scanned" type="xboolean" value="true"/>
                         <entry key="max_data_rows_scanned" type="xlong" value="10000"/>
                         <entry key="thousands_separator" type="xstring" value="%%00000"/>
-                        <entry key="decimal_separator" type="xstring" value="."/>
+                        <entry key="decimal_separator" type="xstring" value="%%00000"/>
                     </config>
                     <config key="encoding">
                         <entry key="charset" type="xstring" isnull="true" value=""/>
@@ -716,7 +716,7 @@
             <entry key="min_chunk_size_in_bytes" type="xlong" value="67108864"/>
             <entry key="max_num_chunks_per_file" type="xint" value="4"/>
             <entry key="thousands_separator" type="xstring" value="%%00000"/>
-            <entry key="decimal_separator" type="xstring" value="."/>
+            <entry key="decimal_separator" type="xstring" value="%%00000"/>
         </config>
         <config key="limit_rows">
             <entry key="skip_lines" type="xboolean" value="false"/>
@@ -776,6 +776,6 @@
     </config>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" value="333cd3b3-deef-41a5-a864-dfc2c3dbc9b2"/>
+        <entry key="file_store_id" type="xstring" value="08bc9493-64a4-41b3-a65b-dfeaeef674e0"/>
     </config>
 </config>

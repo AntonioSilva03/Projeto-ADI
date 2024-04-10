@@ -245,3 +245,736 @@ Caused by: java.text.ParseException: line 5, col 0: Expected a number, boolean, 
 2024-04-04 18:16:41,056 : WARN  : ForkJoinPool.commonPool-worker-4 :  : ProfilesSettingsPage :  :  : Could not check https://api.hub.knime.com/knime/rest for customization profiles because user is not logged in.
 2024-04-04 19:01:01,393 : WARN  : KNIME-Worker-41-Missing Value 4:8 :  : Node : Missing Value : 4:8 : Column "birth_location" still contains missing values.
 2024-04-04 19:09:18,807 : WARN  : KNIME-Worker-47-Missing Value 4:8 :  : Node : Missing Value : 4:8 : The current settings use missing value handling methods that cannot be represented in PMML 4.2.
+2024-04-10 10:22:11,886 : WARN  : ModalContext :  : Node : Missing Value : 4:8 : The current settings use missing value handling methods that cannot be represented in PMML 4.2.
+2024-04-10 10:22:51,010 : WARN  : KNIME-Worker-0-Missing Value 4:8 :  : Node : Missing Value : 4:8 : Column "birth_location" still contains missing values.
+2024-04-10 10:35:34,169 : WARN  : KNIME-Worker-3-Missing Value 4:8 :  : Node : Missing Value : 4:8 : The current settings use missing value handling methods that cannot be represented in PMML 4.2.
+2024-04-10 10:35:57,492 : WARN  : main :  : WizardNodeView :  :  : Unable to retrieve value from view
+2024-04-10 11:24:21,187 : WARN  : comm-pool-thread-21 :  : Node : Linear Correlation : 4:12 : Auto configuration: Using all suitable columns (in total 10)
+2024-04-10 14:14:21,891 : WARN  : ModalContext :  : Node : Missing Value : 3:8 : The current settings use missing value handling methods that cannot be represented in PMML 4.2.
+2024-04-10 14:15:54,334 : WARN  : comm-pool-thread-2 :  : Node : Bar Chart : 3:9 : The selected frequency column "year_of_birth" does not exist in the table
+2024-04-10 14:22:08,596 : WARN  : comm-pool-thread-6 :  : Node : Row Filter : 3:13 : No row filter specified
+2024-04-10 14:24:15,498 : WARN  : KNIME-Worker-1-Missing Value 3:12 :  : Node : Missing Value : 3:12 : The current settings use missing value handling methods that cannot be represented in PMML 4.2.
+2024-04-10 14:28:08,648 : WARN  : comm-pool-thread-9 :  : Node : Row Filter : 3:12 : No row filter specified
+2024-04-10 14:35:04,506 : WARN  : comm-pool-thread-11 :  : Node : Bar Chart : 3:14 : The selected frequency column "year_of_birth" does not exist in the table
+2024-04-10 16:36:21,477 : WARN  : main :  : Node : Rule-based Row Filter : 3:12 : Line: 4: Expression before 'MATCHES' is not a string.
+$AST$ MATCHES "NA" => TRUE
+^
+2024-04-10 16:36:22,945 : WARN  : main :  : Node : Rule-based Row Filter : 3:12 : Line: 4: Expression before 'MATCHES' is not a string.
+$AST$ MATCHES "NA" => TRUE
+^
+2024-04-10 16:36:24,810 : WARN  : KNIME-Worker-4-CSV Reader 3:1 :  : Node : Rule-based Row Filter : 3:12 : Line: 4: Expression before 'MATCHES' is not a string.
+$AST$ MATCHES "NA" => TRUE
+^
+2024-04-10 16:36:31,145 : WARN  : KNIME-Worker-4-Column Filter 3:11 :  : Node : Rule-based Row Filter : 3:12 : Line: 4: Expression before 'MATCHES' is not a string.
+$AST$ MATCHES "NA" => TRUE
+^
+2024-04-10 16:38:03,353 : WARN  : main :  : Node : Bar Chart : 3:14 : The selected frequency column "year_of_birth" does not exist in the table
+2024-04-10 16:38:04,602 : WARN  : main :  : Node : Bar Chart : 3:14 : The selected frequency column "year_of_birth" does not exist in the table
+2024-04-10 16:38:06,938 : WARN  : KNIME-Worker-5-Rule-based Row Filter 3:12 :  : Node : Bar Chart : 3:14 : The selected frequency column "year_of_birth" does not exist in the table
+2024-04-10 16:39:13,892 : WARN  : main :  : Node : Bar Chart : 3:6 : The selected frequency column "year_of_birth" of type "String" is not compatible (i.e. numeric)
+2024-04-10 16:39:13,894 : WARN  : main :  : Node : Bar Chart : 3:14 : The selected frequency column "year_of_birth" does not exist in the table
+2024-04-10 16:39:15,007 : WARN  : main :  : Node : Bar Chart : 3:6 : The selected frequency column "year_of_birth" of type "String" is not compatible (i.e. numeric)
+2024-04-10 16:39:15,008 : WARN  : main :  : Node : Bar Chart : 3:14 : The selected frequency column "year_of_birth" does not exist in the table
+2024-04-10 16:39:16,949 : WARN  : KNIME-Worker-5-CSV Reader 3:1 :  : Node : Bar Chart : 3:6 : The selected frequency column "year_of_birth" of type "String" is not compatible (i.e. numeric)
+2024-04-10 16:39:16,953 : WARN  : KNIME-Worker-5-CSV Reader 3:1 :  : Node : Bar Chart : 3:14 : The selected frequency column "year_of_birth" does not exist in the table
+2024-04-10 16:39:19,028 : WARN  : KNIME-Worker-5-Rule Engine 3:5 :  : Node : Bar Chart : 3:6 : The selected frequency column "year_of_birth" of type "String" is not compatible (i.e. numeric)
+2024-04-10 16:39:32,618 : WARN  : KNIME-Worker-5-Rule-based Row Filter 3:12 :  : Node : Bar Chart : 3:14 : The selected frequency column "year_of_birth" does not exist in the table
+2024-04-10 16:40:24,681 : WARN  : main :  : Node : Bar Chart : 3:14 : The selected frequency column "year_of_birth" does not exist in the table
+2024-04-10 16:40:27,317 : WARN  : main :  : Node : Bar Chart : 3:14 : The selected frequency column "year_of_birth" does not exist in the table
+2024-04-10 16:40:29,074 : WARN  : KNIME-Worker-5-CSV Reader 3:1 :  : Node : Bar Chart : 3:14 : The selected frequency column "year_of_birth" does not exist in the table
+2024-04-10 16:40:34,510 : WARN  : KNIME-Worker-5-Rule-based Row Filter 3:12 :  : Node : Bar Chart : 3:14 : The selected frequency column "year_of_birth" does not exist in the table
+2024-04-10 16:43:11,433 : ERROR : comm-pool-thread-30 :  : DefaultNodeService :  :  : java.io.IOException: Invalid node settings: Decimal and thousands separator must not be the same.
+2024-04-10 16:47:52,656 : WARN  : KNIME-Worker-7-String to Number 3:15 :  : Node : String to Number : 3:15 : Problems in 4805 rows, first error: "38,5" in cell ["Row0", column "ALB", row 1] can not be transformed into a number
+2024-04-10 16:47:52,697 : WARN  : KNIME-Worker-7-String to Number 3:15 :  : Node : String to Number : 3:15 : Problems in 4805 rows, first error: "38,5" in cell ["Row0", column "ALB", row 1] can not be transformed into a number
+RowID  |   ..   |  Sex   |  ALB   |  ALP  
+------------------------------------------
+Row0   | ..     | M      | 38,5   | 52,5  
+                          ^^^^^^^
+For input string: "38,5"
+2024-04-10 16:50:33,553 : WARN  : main :  : Node : Bar Chart : 3:14 : The selected frequency column "year_of_birth" does not exist in the table
+2024-04-10 16:50:34,550 : WARN  : main :  : Node : Bar Chart : 3:14 : The selected frequency column "year_of_birth" does not exist in the table
+2024-04-10 16:50:37,706 : WARN  : KNIME-Worker-8-CSV Reader 3:1 :  : Node : Bar Chart : 3:14 : The selected frequency column "year_of_birth" does not exist in the table
+2024-04-10 16:50:44,121 : WARN  : KNIME-Worker-8-Rule-based Row Filter 3:12 :  : Node : Bar Chart : 3:14 : The selected frequency column "year_of_birth" does not exist in the table
+2024-04-10 16:52:03,724 : WARN  : main :  : Node : Bar Chart : 3:14 : The selected frequency column "year_of_birth" does not exist in the table
+2024-04-10 16:52:05,873 : WARN  : main :  : Node : Bar Chart : 3:14 : The selected frequency column "year_of_birth" does not exist in the table
+2024-04-10 16:52:07,492 : WARN  : KNIME-Worker-8-CSV Reader 3:1 :  : Node : Bar Chart : 3:14 : The selected frequency column "year_of_birth" does not exist in the table
+2024-04-10 16:52:15,226 : WARN  : KNIME-Worker-8-Rule-based Row Filter 3:12 :  : Node : Bar Chart : 3:14 : The selected frequency column "year_of_birth" does not exist in the table
+2024-04-10 16:53:55,079 : WARN  : comm-pool-thread-36 :  : Node : String Manipulation : 3:16 : No expression has been set.
+2024-04-10 16:54:28,651 : WARN  : main :  : WrappedNodeDialog : String Manipulation : 3:16 : failed to apply settings: Unable to compile expression
+ERROR at line 66
+Syntax error, insert ";" to complete BlockStatements
+  Line : 65    public java.lang.String internalEvaluate() throws Abort {
+  Line : 66  return regexReplace(__col3, "\\.", ",")
+
+ERROR at line 67
+Syntax error, insert ";" to complete Statement
+  Line : 66  return regexReplace(__col3, "\\.", ",")
+  Line : 67  regexReplace(__col3, "\\.", ",")
+
+ERROR at line 68
+Syntax error, insert ";" to complete Statement
+  Line : 67  regexReplace(__col3, "\\.", ",")
+  Line : 68  regexReplace(__col3, "\\.", ",")
+org.knime.core.node.InvalidSettingsException: Unable to compile expression
+ERROR at line 66
+Syntax error, insert ";" to complete BlockStatements
+  Line : 65    public java.lang.String internalEvaluate() throws Abort {
+  Line : 66  return regexReplace(__col3, "\\.", ",")
+
+ERROR at line 67
+Syntax error, insert ";" to complete Statement
+  Line : 66  return regexReplace(__col3, "\\.", ",")
+  Line : 67  regexReplace(__col3, "\\.", ",")
+
+ERROR at line 68
+Syntax error, insert ";" to complete Statement
+  Line : 67  regexReplace(__col3, "\\.", ",")
+  Line : 68  regexReplace(__col3, "\\.", ",")
+	at org.knime.base.node.preproc.stringmanipulation.StringManipulationNodeDialog.saveSettingsTo(StringManipulationNodeDialog.java:419)
+	at org.knime.core.node.NodeDialogPane.internalSaveSettingsTo(NodeDialogPane.java:539)
+	at org.knime.core.node.NodeDialogPane$4.run(NodeDialogPane.java:778)
+	at org.knime.core.node.util.ViewUtils$3.run(ViewUtils.java:353)
+	at org.knime.core.node.util.ViewUtils$2.run(ViewUtils.java:155)
+	at java.desktop/java.awt.event.InvocationEvent.dispatch(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+	at java.desktop/java.awt.EventQueue$4.run(Unknown Source)
+	at java.desktop/java.awt.EventQueue$4.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Unknown Source)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.run(Unknown Source)
+Caused by: org.knime.ext.sun.nodes.script.compile.CompilationFailedException: Unable to compile expression
+ERROR at line 66
+Syntax error, insert ";" to complete BlockStatements
+  Line : 65    public java.lang.String internalEvaluate() throws Abort {
+  Line : 66  return regexReplace(__col3, "\\.", ",")
+
+ERROR at line 67
+Syntax error, insert ";" to complete Statement
+  Line : 66  return regexReplace(__col3, "\\.", ",")
+  Line : 67  regexReplace(__col3, "\\.", ",")
+
+ERROR at line 68
+Syntax error, insert ";" to complete Statement
+  Line : 67  regexReplace(__col3, "\\.", ",")
+  Line : 68  regexReplace(__col3, "\\.", ",")
+	at org.knime.ext.sun.nodes.script.compile.JavaCodeCompiler.compile(JavaCodeCompiler.java:333)
+	at org.knime.ext.sun.nodes.script.expression.Expression.<init>(Expression.java:217)
+	at org.knime.ext.sun.nodes.script.expression.Expression.compile(Expression.java:619)
+	at org.knime.base.node.preproc.stringmanipulation.StringManipulationNodeDialog.saveSettingsTo(StringManipulationNodeDialog.java:417)
+	... 17 more
+2024-04-10 16:54:30,772 : WARN  : main :  : WrappedNodeDialog : String Manipulation : 3:16 : failed to apply settings: Unable to compile expression
+ERROR at line 66
+Syntax error, insert ";" to complete BlockStatements
+  Line : 65    public java.lang.String internalEvaluate() throws Abort {
+  Line : 66  return regexReplace(__col3, "\\.", ",")
+
+ERROR at line 67
+Syntax error, insert ";" to complete Statement
+  Line : 66  return regexReplace(__col3, "\\.", ",")
+  Line : 67  regexReplace(__col3, "\\.", ",")
+
+ERROR at line 68
+Syntax error, insert ";" to complete Statement
+  Line : 67  regexReplace(__col3, "\\.", ",")
+  Line : 68  regexReplace(__col3, "\\.", ",")
+org.knime.core.node.InvalidSettingsException: Unable to compile expression
+ERROR at line 66
+Syntax error, insert ";" to complete BlockStatements
+  Line : 65    public java.lang.String internalEvaluate() throws Abort {
+  Line : 66  return regexReplace(__col3, "\\.", ",")
+
+ERROR at line 67
+Syntax error, insert ";" to complete Statement
+  Line : 66  return regexReplace(__col3, "\\.", ",")
+  Line : 67  regexReplace(__col3, "\\.", ",")
+
+ERROR at line 68
+Syntax error, insert ";" to complete Statement
+  Line : 67  regexReplace(__col3, "\\.", ",")
+  Line : 68  regexReplace(__col3, "\\.", ",")
+	at org.knime.base.node.preproc.stringmanipulation.StringManipulationNodeDialog.saveSettingsTo(StringManipulationNodeDialog.java:419)
+	at org.knime.core.node.NodeDialogPane.internalSaveSettingsTo(NodeDialogPane.java:539)
+	at org.knime.core.node.NodeDialogPane$4.run(NodeDialogPane.java:778)
+	at org.knime.core.node.util.ViewUtils$3.run(ViewUtils.java:353)
+	at org.knime.core.node.util.ViewUtils$2.run(ViewUtils.java:155)
+	at java.desktop/java.awt.event.InvocationEvent.dispatch(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+	at java.desktop/java.awt.EventQueue$4.run(Unknown Source)
+	at java.desktop/java.awt.EventQueue$4.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Unknown Source)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.run(Unknown Source)
+Caused by: org.knime.ext.sun.nodes.script.compile.CompilationFailedException: Unable to compile expression
+ERROR at line 66
+Syntax error, insert ";" to complete BlockStatements
+  Line : 65    public java.lang.String internalEvaluate() throws Abort {
+  Line : 66  return regexReplace(__col3, "\\.", ",")
+
+ERROR at line 67
+Syntax error, insert ";" to complete Statement
+  Line : 66  return regexReplace(__col3, "\\.", ",")
+  Line : 67  regexReplace(__col3, "\\.", ",")
+
+ERROR at line 68
+Syntax error, insert ";" to complete Statement
+  Line : 67  regexReplace(__col3, "\\.", ",")
+  Line : 68  regexReplace(__col3, "\\.", ",")
+	at org.knime.ext.sun.nodes.script.compile.JavaCodeCompiler.compile(JavaCodeCompiler.java:333)
+	at org.knime.ext.sun.nodes.script.expression.Expression.<init>(Expression.java:217)
+	at org.knime.ext.sun.nodes.script.expression.Expression.compile(Expression.java:619)
+	at org.knime.base.node.preproc.stringmanipulation.StringManipulationNodeDialog.saveSettingsTo(StringManipulationNodeDialog.java:417)
+	... 17 more
+2024-04-10 16:55:27,145 : WARN  : main :  : WrappedNodeDialog : String Manipulation : 3:16 : failed to apply settings: Unable to compile expression
+ERROR at line 75
+Syntax error, insert ";" to complete BlockStatements
+  Line : 74    public java.lang.String internalEvaluate() throws Abort {
+  Line : 75  return regexReplace(__col3, "\\.", ",")
+
+ERROR at line 76
+Syntax error, insert ";" to complete Statement
+  Line : 75  return regexReplace(__col3, "\\.", ",")
+  Line : 76  regexReplace(__col4, "\\.", ",")
+
+ERROR at line 77
+Syntax error, insert ";" to complete Statement
+  Line : 76  regexReplace(__col4, "\\.", ",")
+  Line : 77  regexReplace(__col5, "\\.", ",")
+
+ERROR at line 78
+Syntax error, insert ";" to complete Statement
+  Line : 77  regexReplace(__col5, "\\.", ",")
+  Line : 78  regexReplace(__col6, "\\.", ",")
+
+ERROR at line 79
+Syntax error, insert ";" to complete Statement
+  Line : 78  regexReplace(__col6, "\\.", ",")
+  Line : 79  regexReplace(__col7, "\\.", ",")
+
+ERROR at line 80
+Syntax error, insert ";" to complete Statement
+  Line : 79  regexReplace(__col7, "\\.", ",")
+  Line : 80  regexReplace(__col8, "\\.", ",")
+
+ERROR at line 81
+Syntax error, insert ";" to complete Statement
+  Line : 80  regexReplace(__col8, "\\.", ",")
+  Line : 81  regexReplace(__col9, "\\.", ",")
+
+ERROR at line 82
+Syntax error, insert ";" to complete Statement
+  Line : 81  regexReplace(__col9, "\\.", ",")
+  Line : 82  regexReplace(__col10, "\\.", ",")
+
+ERROR at line 83
+Syntax error, insert ";" to complete Statement
+  Line : 82  regexReplace(__col10, "\\.", ",")
+  Line : 83  regexReplace(__col11, "\\.", ",")
+org.knime.core.node.InvalidSettingsException: Unable to compile expression
+ERROR at line 75
+Syntax error, insert ";" to complete BlockStatements
+  Line : 74    public java.lang.String internalEvaluate() throws Abort {
+  Line : 75  return regexReplace(__col3, "\\.", ",")
+
+ERROR at line 76
+Syntax error, insert ";" to complete Statement
+  Line : 75  return regexReplace(__col3, "\\.", ",")
+  Line : 76  regexReplace(__col4, "\\.", ",")
+
+ERROR at line 77
+Syntax error, insert ";" to complete Statement
+  Line : 76  regexReplace(__col4, "\\.", ",")
+  Line : 77  regexReplace(__col5, "\\.", ",")
+
+ERROR at line 78
+Syntax error, insert ";" to complete Statement
+  Line : 77  regexReplace(__col5, "\\.", ",")
+  Line : 78  regexReplace(__col6, "\\.", ",")
+
+ERROR at line 79
+Syntax error, insert ";" to complete Statement
+  Line : 78  regexReplace(__col6, "\\.", ",")
+  Line : 79  regexReplace(__col7, "\\.", ",")
+
+ERROR at line 80
+Syntax error, insert ";" to complete Statement
+  Line : 79  regexReplace(__col7, "\\.", ",")
+  Line : 80  regexReplace(__col8, "\\.", ",")
+
+ERROR at line 81
+Syntax error, insert ";" to complete Statement
+  Line : 80  regexReplace(__col8, "\\.", ",")
+  Line : 81  regexReplace(__col9, "\\.", ",")
+
+ERROR at line 82
+Syntax error, insert ";" to complete Statement
+  Line : 81  regexReplace(__col9, "\\.", ",")
+  Line : 82  regexReplace(__col10, "\\.", ",")
+
+ERROR at line 83
+Syntax error, insert ";" to complete Statement
+  Line : 82  regexReplace(__col10, "\\.", ",")
+  Line : 83  regexReplace(__col11, "\\.", ",")
+	at org.knime.base.node.preproc.stringmanipulation.StringManipulationNodeDialog.saveSettingsTo(StringManipulationNodeDialog.java:419)
+	at org.knime.core.node.NodeDialogPane.internalSaveSettingsTo(NodeDialogPane.java:539)
+	at org.knime.core.node.NodeDialogPane$4.run(NodeDialogPane.java:778)
+	at org.knime.core.node.util.ViewUtils$3.run(ViewUtils.java:353)
+	at org.knime.core.node.util.ViewUtils$2.run(ViewUtils.java:155)
+	at java.desktop/java.awt.event.InvocationEvent.dispatch(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+	at java.desktop/java.awt.EventQueue$4.run(Unknown Source)
+	at java.desktop/java.awt.EventQueue$4.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Unknown Source)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.run(Unknown Source)
+Caused by: org.knime.ext.sun.nodes.script.compile.CompilationFailedException: Unable to compile expression
+ERROR at line 75
+Syntax error, insert ";" to complete BlockStatements
+  Line : 74    public java.lang.String internalEvaluate() throws Abort {
+  Line : 75  return regexReplace(__col3, "\\.", ",")
+
+ERROR at line 76
+Syntax error, insert ";" to complete Statement
+  Line : 75  return regexReplace(__col3, "\\.", ",")
+  Line : 76  regexReplace(__col4, "\\.", ",")
+
+ERROR at line 77
+Syntax error, insert ";" to complete Statement
+  Line : 76  regexReplace(__col4, "\\.", ",")
+  Line : 77  regexReplace(__col5, "\\.", ",")
+
+ERROR at line 78
+Syntax error, insert ";" to complete Statement
+  Line : 77  regexReplace(__col5, "\\.", ",")
+  Line : 78  regexReplace(__col6, "\\.", ",")
+
+ERROR at line 79
+Syntax error, insert ";" to complete Statement
+  Line : 78  regexReplace(__col6, "\\.", ",")
+  Line : 79  regexReplace(__col7, "\\.", ",")
+
+ERROR at line 80
+Syntax error, insert ";" to complete Statement
+  Line : 79  regexReplace(__col7, "\\.", ",")
+  Line : 80  regexReplace(__col8, "\\.", ",")
+
+ERROR at line 81
+Syntax error, insert ";" to complete Statement
+  Line : 80  regexReplace(__col8, "\\.", ",")
+  Line : 81  regexReplace(__col9, "\\.", ",")
+
+ERROR at line 82
+Syntax error, insert ";" to complete Statement
+  Line : 81  regexReplace(__col9, "\\.", ",")
+  Line : 82  regexReplace(__col10, "\\.", ",")
+
+ERROR at line 83
+Syntax error, insert ";" to complete Statement
+  Line : 82  regexReplace(__col10, "\\.", ",")
+  Line : 83  regexReplace(__col11, "\\.", ",")
+	at org.knime.ext.sun.nodes.script.compile.JavaCodeCompiler.compile(JavaCodeCompiler.java:333)
+	at org.knime.ext.sun.nodes.script.expression.Expression.<init>(Expression.java:217)
+	at org.knime.ext.sun.nodes.script.expression.Expression.compile(Expression.java:619)
+	at org.knime.base.node.preproc.stringmanipulation.StringManipulationNodeDialog.saveSettingsTo(StringManipulationNodeDialog.java:417)
+	... 17 more
+2024-04-10 16:55:58,387 : WARN  : main :  : WrappedNodeDialog : String Manipulation : 3:16 : failed to apply settings: Unable to compile expression
+ERROR at line 75
+Syntax error, insert ";" to complete BlockStatements
+  Line : 74    public java.lang.String internalEvaluate() throws Abort {
+  Line : 75  return regexReplace(__col3, "\\.", ",")
+
+ERROR at line 76
+Syntax error, insert ";" to complete Statement
+  Line : 75  return regexReplace(__col3, "\\.", ",")
+  Line : 76  regexReplace(__col4, "\\.", ",")
+
+ERROR at line 77
+Syntax error, insert ";" to complete Statement
+  Line : 76  regexReplace(__col4, "\\.", ",")
+  Line : 77  regexReplace(__col5, "\\.", ",")
+
+ERROR at line 78
+Syntax error, insert ";" to complete Statement
+  Line : 77  regexReplace(__col5, "\\.", ",")
+  Line : 78  regexReplace(__col6, "\\.", ",")
+
+ERROR at line 79
+Syntax error, insert ";" to complete Statement
+  Line : 78  regexReplace(__col6, "\\.", ",")
+  Line : 79  regexReplace(__col7, "\\.", ",")
+
+ERROR at line 80
+Syntax error, insert ";" to complete Statement
+  Line : 79  regexReplace(__col7, "\\.", ",")
+  Line : 80  regexReplace(__col8, "\\.", ",")
+
+ERROR at line 81
+Syntax error, insert ";" to complete Statement
+  Line : 80  regexReplace(__col8, "\\.", ",")
+  Line : 81  regexReplace(__col9, "\\.", ",")
+
+ERROR at line 82
+Syntax error, insert ";" to complete Statement
+  Line : 81  regexReplace(__col9, "\\.", ",")
+  Line : 82  regexReplace(__col10, "\\.", ",")
+
+ERROR at line 83
+Syntax error, insert ";" to complete Statement
+  Line : 82  regexReplace(__col10, "\\.", ",")
+  Line : 83  regexReplace(__col11, "\\.", ",")
+org.knime.core.node.InvalidSettingsException: Unable to compile expression
+ERROR at line 75
+Syntax error, insert ";" to complete BlockStatements
+  Line : 74    public java.lang.String internalEvaluate() throws Abort {
+  Line : 75  return regexReplace(__col3, "\\.", ",")
+
+ERROR at line 76
+Syntax error, insert ";" to complete Statement
+  Line : 75  return regexReplace(__col3, "\\.", ",")
+  Line : 76  regexReplace(__col4, "\\.", ",")
+
+ERROR at line 77
+Syntax error, insert ";" to complete Statement
+  Line : 76  regexReplace(__col4, "\\.", ",")
+  Line : 77  regexReplace(__col5, "\\.", ",")
+
+ERROR at line 78
+Syntax error, insert ";" to complete Statement
+  Line : 77  regexReplace(__col5, "\\.", ",")
+  Line : 78  regexReplace(__col6, "\\.", ",")
+
+ERROR at line 79
+Syntax error, insert ";" to complete Statement
+  Line : 78  regexReplace(__col6, "\\.", ",")
+  Line : 79  regexReplace(__col7, "\\.", ",")
+
+ERROR at line 80
+Syntax error, insert ";" to complete Statement
+  Line : 79  regexReplace(__col7, "\\.", ",")
+  Line : 80  regexReplace(__col8, "\\.", ",")
+
+ERROR at line 81
+Syntax error, insert ";" to complete Statement
+  Line : 80  regexReplace(__col8, "\\.", ",")
+  Line : 81  regexReplace(__col9, "\\.", ",")
+
+ERROR at line 82
+Syntax error, insert ";" to complete Statement
+  Line : 81  regexReplace(__col9, "\\.", ",")
+  Line : 82  regexReplace(__col10, "\\.", ",")
+
+ERROR at line 83
+Syntax error, insert ";" to complete Statement
+  Line : 82  regexReplace(__col10, "\\.", ",")
+  Line : 83  regexReplace(__col11, "\\.", ",")
+	at org.knime.base.node.preproc.stringmanipulation.StringManipulationNodeDialog.saveSettingsTo(StringManipulationNodeDialog.java:419)
+	at org.knime.core.node.NodeDialogPane.internalSaveSettingsTo(NodeDialogPane.java:539)
+	at org.knime.core.node.NodeDialogPane$4.run(NodeDialogPane.java:778)
+	at org.knime.core.node.util.ViewUtils$3.run(ViewUtils.java:353)
+	at org.knime.core.node.util.ViewUtils$2.run(ViewUtils.java:155)
+	at java.desktop/java.awt.event.InvocationEvent.dispatch(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+	at java.desktop/java.awt.EventQueue$4.run(Unknown Source)
+	at java.desktop/java.awt.EventQueue$4.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Unknown Source)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.run(Unknown Source)
+Caused by: org.knime.ext.sun.nodes.script.compile.CompilationFailedException: Unable to compile expression
+ERROR at line 75
+Syntax error, insert ";" to complete BlockStatements
+  Line : 74    public java.lang.String internalEvaluate() throws Abort {
+  Line : 75  return regexReplace(__col3, "\\.", ",")
+
+ERROR at line 76
+Syntax error, insert ";" to complete Statement
+  Line : 75  return regexReplace(__col3, "\\.", ",")
+  Line : 76  regexReplace(__col4, "\\.", ",")
+
+ERROR at line 77
+Syntax error, insert ";" to complete Statement
+  Line : 76  regexReplace(__col4, "\\.", ",")
+  Line : 77  regexReplace(__col5, "\\.", ",")
+
+ERROR at line 78
+Syntax error, insert ";" to complete Statement
+  Line : 77  regexReplace(__col5, "\\.", ",")
+  Line : 78  regexReplace(__col6, "\\.", ",")
+
+ERROR at line 79
+Syntax error, insert ";" to complete Statement
+  Line : 78  regexReplace(__col6, "\\.", ",")
+  Line : 79  regexReplace(__col7, "\\.", ",")
+
+ERROR at line 80
+Syntax error, insert ";" to complete Statement
+  Line : 79  regexReplace(__col7, "\\.", ",")
+  Line : 80  regexReplace(__col8, "\\.", ",")
+
+ERROR at line 81
+Syntax error, insert ";" to complete Statement
+  Line : 80  regexReplace(__col8, "\\.", ",")
+  Line : 81  regexReplace(__col9, "\\.", ",")
+
+ERROR at line 82
+Syntax error, insert ";" to complete Statement
+  Line : 81  regexReplace(__col9, "\\.", ",")
+  Line : 82  regexReplace(__col10, "\\.", ",")
+
+ERROR at line 83
+Syntax error, insert ";" to complete Statement
+  Line : 82  regexReplace(__col10, "\\.", ",")
+  Line : 83  regexReplace(__col11, "\\.", ",")
+	at org.knime.ext.sun.nodes.script.compile.JavaCodeCompiler.compile(JavaCodeCompiler.java:333)
+	at org.knime.ext.sun.nodes.script.expression.Expression.<init>(Expression.java:217)
+	at org.knime.ext.sun.nodes.script.expression.Expression.compile(Expression.java:619)
+	at org.knime.base.node.preproc.stringmanipulation.StringManipulationNodeDialog.saveSettingsTo(StringManipulationNodeDialog.java:417)
+	... 17 more
+2024-04-10 16:56:15,940 : WARN  : main :  : WrappedNodeDialog : String Manipulation : 3:16 : failed to apply settings: Unable to compile expression
+ERROR at line 76
+Unreachable code
+  Line : 75  return regexReplace(__col3, "\\.", ",");
+  Line : 76  regexReplace(__col4, "\\.", ",");
+org.knime.core.node.InvalidSettingsException: Unable to compile expression
+ERROR at line 76
+Unreachable code
+  Line : 75  return regexReplace(__col3, "\\.", ",");
+  Line : 76  regexReplace(__col4, "\\.", ",");
+	at org.knime.base.node.preproc.stringmanipulation.StringManipulationNodeDialog.saveSettingsTo(StringManipulationNodeDialog.java:419)
+	at org.knime.core.node.NodeDialogPane.internalSaveSettingsTo(NodeDialogPane.java:539)
+	at org.knime.core.node.NodeDialogPane$4.run(NodeDialogPane.java:778)
+	at org.knime.core.node.util.ViewUtils$3.run(ViewUtils.java:353)
+	at org.knime.core.node.util.ViewUtils$2.run(ViewUtils.java:155)
+	at java.desktop/java.awt.event.InvocationEvent.dispatch(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+	at java.desktop/java.awt.EventQueue$4.run(Unknown Source)
+	at java.desktop/java.awt.EventQueue$4.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Unknown Source)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.run(Unknown Source)
+Caused by: org.knime.ext.sun.nodes.script.compile.CompilationFailedException: Unable to compile expression
+ERROR at line 76
+Unreachable code
+  Line : 75  return regexReplace(__col3, "\\.", ",");
+  Line : 76  regexReplace(__col4, "\\.", ",");
+	at org.knime.ext.sun.nodes.script.compile.JavaCodeCompiler.compile(JavaCodeCompiler.java:333)
+	at org.knime.ext.sun.nodes.script.expression.Expression.<init>(Expression.java:217)
+	at org.knime.ext.sun.nodes.script.expression.Expression.compile(Expression.java:619)
+	at org.knime.base.node.preproc.stringmanipulation.StringManipulationNodeDialog.saveSettingsTo(StringManipulationNodeDialog.java:417)
+	... 17 more
+2024-04-10 16:56:25,985 : WARN  : main :  : WrappedNodeDialog : String Manipulation : 3:16 : failed to apply settings: Unable to compile expression
+ERROR at line 76
+Unreachable code
+  Line : 75  return regexReplace(__col3, "\\.", ",");
+  Line : 76  regexReplace(__col4, "\\.", ",");
+org.knime.core.node.InvalidSettingsException: Unable to compile expression
+ERROR at line 76
+Unreachable code
+  Line : 75  return regexReplace(__col3, "\\.", ",");
+  Line : 76  regexReplace(__col4, "\\.", ",");
+	at org.knime.base.node.preproc.stringmanipulation.StringManipulationNodeDialog.saveSettingsTo(StringManipulationNodeDialog.java:419)
+	at org.knime.core.node.NodeDialogPane.internalSaveSettingsTo(NodeDialogPane.java:539)
+	at org.knime.core.node.NodeDialogPane$4.run(NodeDialogPane.java:778)
+	at org.knime.core.node.util.ViewUtils$3.run(ViewUtils.java:353)
+	at org.knime.core.node.util.ViewUtils$2.run(ViewUtils.java:155)
+	at java.desktop/java.awt.event.InvocationEvent.dispatch(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+	at java.desktop/java.awt.EventQueue$4.run(Unknown Source)
+	at java.desktop/java.awt.EventQueue$4.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Unknown Source)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.run(Unknown Source)
+Caused by: org.knime.ext.sun.nodes.script.compile.CompilationFailedException: Unable to compile expression
+ERROR at line 76
+Unreachable code
+  Line : 75  return regexReplace(__col3, "\\.", ",");
+  Line : 76  regexReplace(__col4, "\\.", ",");
+	at org.knime.ext.sun.nodes.script.compile.JavaCodeCompiler.compile(JavaCodeCompiler.java:333)
+	at org.knime.ext.sun.nodes.script.expression.Expression.<init>(Expression.java:217)
+	at org.knime.ext.sun.nodes.script.expression.Expression.compile(Expression.java:619)
+	at org.knime.base.node.preproc.stringmanipulation.StringManipulationNodeDialog.saveSettingsTo(StringManipulationNodeDialog.java:417)
+	... 17 more
+2024-04-10 17:57:14,124 : WARN  : main :  : Node : Bar Chart : 3:6 : The selected frequency column "year_of_birth" of type "String" is not compatible (i.e. numeric)
+2024-04-10 17:57:14,135 : WARN  : main :  : Node : Bar Chart : 3:14 : The selected frequency column "year_of_birth" does not exist in the table
+2024-04-10 17:57:15,386 : WARN  : main :  : Node : Bar Chart : 3:6 : The selected frequency column "year_of_birth" of type "String" is not compatible (i.e. numeric)
+2024-04-10 17:57:15,387 : WARN  : main :  : Node : Bar Chart : 3:14 : The selected frequency column "year_of_birth" does not exist in the table
+2024-04-10 17:57:16,053 : WARN  : main :  : Node : Bar Chart : 3:6 : The selected frequency column "year_of_birth" of type "String" is not compatible (i.e. numeric)
+2024-04-10 17:57:16,054 : WARN  : main :  : Node : Bar Chart : 3:14 : The selected frequency column "year_of_birth" does not exist in the table
+2024-04-10 17:57:17,660 : WARN  : KNIME-Worker-9-CSV Reader 3:1 :  : Node : Bar Chart : 3:6 : The selected frequency column "year_of_birth" of type "String" is not compatible (i.e. numeric)
+2024-04-10 17:57:17,661 : WARN  : KNIME-Worker-9-CSV Reader 3:1 :  : Node : Bar Chart : 3:14 : The selected frequency column "year_of_birth" does not exist in the table
+2024-04-10 17:57:18,652 : WARN  : KNIME-Worker-9-Rule Engine 3:5 :  : Node : Bar Chart : 3:6 : The selected frequency column "year_of_birth" of type "String" is not compatible (i.e. numeric)
+2024-04-10 17:57:22,890 : WARN  : KNIME-Worker-9-Rule-based Row Filter 3:12 :  : Node : Bar Chart : 3:14 : The selected frequency column "year_of_birth" does not exist in the table
+2024-04-10 17:57:27,633 : WARN  : KNIME-Worker-9-String to Number 3:15 :  : Node : String to Number : 3:15 : Problems in 2691 rows, first error: "38,5" in cell ["Row0", column "ALB", row 1] can not be transformed into a number
+2024-04-10 17:57:27,633 : WARN  : KNIME-Worker-9-String to Number 3:15 :  : Node : String to Number : 3:15 : Problems in 2691 rows, first error: "38,5" in cell ["Row0", column "ALB", row 1] can not be transformed into a number
+RowID  |   ..   |  Sex   |  ALB   |  ALP  
+------------------------------------------
+Row0   | ..     | M      | 38,5   | 52,5  
+                          ^^^^^^^
+For input string: "38,5"
+2024-04-10 17:58:32,337 : ERROR : comm-pool-thread-40 :  : DefaultNodeService :  :  : java.io.IOException: Invalid node settings: Decimal and thousands separator must not be the same.
+2024-04-10 17:58:36,061 : ERROR : comm-pool-thread-40 :  : DefaultNodeService :  :  : java.io.IOException: Invalid node settings: Decimal and thousands separator must not be the same.
+2024-04-10 17:58:53,031 : ERROR : comm-pool-thread-40 :  : DefaultNodeService :  :  : java.io.IOException: Invalid node settings: Decimal and thousands separator must not be the same.
+2024-04-10 17:59:05,648 : WARN  : main :  : Node : Bar Chart : 3:14 : The selected frequency column "year_of_birth" does not exist in the table
+2024-04-10 17:59:08,430 : WARN  : main :  : Node : Bar Chart : 3:14 : The selected frequency column "year_of_birth" does not exist in the table
+2024-04-10 17:59:09,016 : WARN  : AWT-EventQueue-0 :  : StringHistory : CSV Reader : 3:1 : Unable to write to file 'C:\Users\Diogo Barros\OneDrive - Universidade do Minho\Ambiente de Trabalho\3ºANO\2_Semestre\ADI\adi-learning-models\workflows\.metadata\knime\history_csv_reader_writer.txt'
+java.io.FileNotFoundException: C:\Users\Diogo Barros\OneDrive - Universidade do Minho\Ambiente de Trabalho\3ºANO\2_Semestre\ADI\adi-learning-models\workflows\.metadata\knime\history_csv_reader_writer.txt (O processo não pode aceder ao ficheiro porque este está a ser utilizado por outro processo)
+	at java.base/java.io.FileOutputStream.open0(Native Method)
+	at java.base/java.io.FileOutputStream.open(Unknown Source)
+	at java.base/java.io.FileOutputStream.<init>(Unknown Source)
+	at java.base/java.io.FileOutputStream.<init>(Unknown Source)
+	at java.base/java.io.FileWriter.<init>(Unknown Source)
+	at org.knime.core.node.util.StringHistory.save(StringHistory.java:189)
+	at org.knime.core.node.util.StringHistory.add(StringHistory.java:146)
+	at org.knime.filehandling.core.defaultnodesettings.fileselection.HistoryComboBoxModel.addCurrentSelectionToHistory(HistoryComboBoxModel.java:95)
+	at org.knime.filehandling.core.defaultnodesettings.fileselection.FileSelectionDialog.addCurrentSelectionToHistory(FileSelectionDialog.java:337)
+	at org.knime.filehandling.core.defaultnodesettings.filechooser.AbstractDialogComponentFileChooser.validateSettingsBeforeSave(AbstractDialogComponentFileChooser.java:424)
+	at org.knime.core.node.defaultnodesettings.DialogComponent.saveSettingsTo(DialogComponent.java:198)
+	at org.knime.base.node.io.filehandling.csv.reader.CSVTableReaderNodeDialog.saveAdditionalSettingsTo(CSVTableReaderNodeDialog.java:181)
+	at org.knime.base.node.io.filehandling.csv.reader.AbstractCSVTableReaderNodeDialog.saveSettingsTo(AbstractCSVTableReaderNodeDialog.java:847)
+	at org.knime.core.node.NodeDialogPane.internalSaveSettingsTo(NodeDialogPane.java:539)
+	at org.knime.core.node.NodeDialogPane$4.run(NodeDialogPane.java:778)
+	at org.knime.core.node.util.ViewUtils$3.run(ViewUtils.java:353)
+	at org.knime.core.node.util.ViewUtils$2.run(ViewUtils.java:155)
+	at java.desktop/java.awt.event.InvocationEvent.dispatch(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+	at java.desktop/java.awt.EventQueue$4.run(Unknown Source)
+	at java.desktop/java.awt.EventQueue$4.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Unknown Source)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.run(Unknown Source)
+2024-04-10 17:59:09,020 : WARN  : main :  : Node : Bar Chart : 3:14 : The selected frequency column "year_of_birth" does not exist in the table
+2024-04-10 17:59:10,686 : WARN  : KNIME-Worker-9-CSV Reader 3:1 :  : Node : Bar Chart : 3:14 : The selected frequency column "year_of_birth" does not exist in the table
+2024-04-10 17:59:15,265 : WARN  : KNIME-Worker-9-Rule-based Row Filter 3:12 :  : Node : Bar Chart : 3:14 : The selected frequency column "year_of_birth" does not exist in the table
+2024-04-10 21:02:00,931 : WARN  : comm-pool-thread-45 :  : Node : Partitioning : 3:26 : No sampling method selected
+2024-04-10 21:03:45,584 : WARN  : comm-pool-thread-46 :  : Node : Decision Tree Learner : 3:16 : Guessing target column: "Category".
+2024-04-10 21:09:40,586 : WARN  : comm-pool-thread-47 :  : Node : Decision Tree Learner : 3:27 : Guessing target column: "Category".
+2024-04-10 21:24:17,341 : WARN  : ModalContext :  : Node : Decision Tree Learner : 3:27 : Guessing target column: "Category".
+2024-04-10 21:27:17,870 : WARN  : comm-pool-thread-4 :  : Node : Scorer (JavaScript) : 3:29 : Please configure the node.
+2024-04-10 21:29:10,840 : WARN  : main :  : Node : Scorer (JavaScript) : 3:29 : The columns selected don't contain any values.
+2024-04-10 21:29:11,861 : WARN  : main :  : Node : Scorer (JavaScript) : 3:29 : The columns selected don't contain any values.
+2024-04-10 21:32:21,032 : WARN  : main :  : Node : Scorer (JavaScript) : 3:29 : The columns selected don't contain any values.
+2024-04-10 21:32:22,269 : WARN  : main :  : Node : Scorer (JavaScript) : 3:29 : The columns selected don't contain any values.
+2024-04-10 21:33:52,263 : WARN  : main :  : Node : Scorer (JavaScript) : 3:29 : The columns selected don't contain any values.
+2024-04-10 21:33:53,318 : WARN  : main :  : Node : Scorer (JavaScript) : 3:29 : The columns selected don't contain any values.
+2024-04-10 21:34:43,896 : WARN  : comm-pool-thread-10 :  : Node : Scorer (JavaScript) : 3:29 : The columns selected don't contain any values.
+2024-04-10 21:34:56,485 : WARN  : comm-pool-thread-10 :  : Node : X-Aggregator : 3:31 : Selected columns 'Prediction (Category)' and 'Category' as prediction and target columns
+2024-04-10 21:35:01,366 : WARN  : comm-pool-thread-10 :  : Node : Scorer (JavaScript) : 3:29 : The columns selected don't contain any values.
+2024-04-10 21:35:11,528 : WARN  : KNIME-Worker-4-X-Partitioner 3:30 :  : Node : Scorer (JavaScript) : 3:29 : The columns selected don't contain any values.
+2024-04-10 21:35:13,593 : WARN  : KNIME-Worker-4-X-Partitioner 3:30 :  : Node : Scorer (JavaScript) : 3:29 : The columns selected don't contain any values.
+2024-04-10 21:35:47,695 : WARN  : main :  : Node : Scorer (JavaScript) : 3:29 : The columns selected don't contain any values.
+2024-04-10 21:35:49,236 : WARN  : main :  : Node : Scorer (JavaScript) : 3:29 : The columns selected don't contain any values.
+2024-04-10 21:36:00,914 : WARN  : KNIME-Worker-4-X-Partitioner 3:30 :  : Node : Scorer (JavaScript) : 3:29 : The columns selected don't contain any values.
+2024-04-10 21:44:16,828 : WARN  : comm-pool-thread-13 :  : Node : Random Forest Learner : 3:20 : No configuration available
+2024-04-10 21:49:10,896 : WARN  : comm-pool-thread-16 :  : Node : Scorer : 3:36 : No columns selected yet.
+2024-04-10 21:51:17,385 : WARN  : KNIME-Worker-8-X-Partitioner 3:32 :  : Node : Random Forest Learner : 3:20 : No configuration available
+2024-04-10 21:54:49,569 : WARN  : main :  : Node : Scorer (JavaScript) : 3:35 : The columns selected don't contain any values.
+2024-04-10 21:54:51,259 : WARN  : main :  : Node : Scorer (JavaScript) : 3:35 : The columns selected don't contain any values.
+2024-04-10 21:54:51,729 : WARN  : main :  : Node : Scorer (JavaScript) : 3:35 : The columns selected don't contain any values.
+2024-04-10 21:54:55,631 : WARN  : KNIME-Worker-24-X-Partitioner 3:32 :  : Node : Scorer (JavaScript) : 3:35 : The columns selected don't contain any values.
+2024-04-10 21:56:56,876 : WARN  : main :  : Node : Scorer (JavaScript) : 3:35 : The columns selected don't contain any values.
+2024-04-10 21:56:56,880 : WARN  : main :  : Node : Scorer (JavaScript) : 3:35 : The columns selected don't contain any values.
+2024-04-10 21:57:00,359 : WARN  : main :  : Node : Scorer (JavaScript) : 3:35 : The columns selected don't contain any values.
+2024-04-10 21:57:00,953 : WARN  : main :  : Node : Scorer (JavaScript) : 3:35 : The columns selected don't contain any values.
+2024-04-10 21:57:06,541 : WARN  : KNIME-Worker-26-X-Partitioner 3:32 :  : Node : Scorer (JavaScript) : 3:35 : The columns selected don't contain any values.
+2024-04-10 21:58:04,344 : WARN  : main :  : Node : Scorer (JavaScript) : 3:35 : The columns selected don't contain any values.
+2024-04-10 21:58:04,346 : WARN  : main :  : Node : Scorer (JavaScript) : 3:35 : The columns selected don't contain any values.
+2024-04-10 21:58:05,409 : WARN  : main :  : Node : Scorer (JavaScript) : 3:35 : The columns selected don't contain any values.
+2024-04-10 21:58:09,430 : WARN  : KNIME-Worker-39-X-Partitioner 3:32 :  : Node : Scorer (JavaScript) : 3:35 : The columns selected don't contain any values.
+2024-04-10 21:58:23,610 : WARN  : main :  : Node : Scorer (JavaScript) : 3:35 : The columns selected don't contain any values.
+2024-04-10 21:58:23,612 : WARN  : main :  : Node : Scorer (JavaScript) : 3:35 : The columns selected don't contain any values.
+2024-04-10 21:58:24,745 : WARN  : main :  : Node : Scorer (JavaScript) : 3:35 : The columns selected don't contain any values.
+2024-04-10 21:58:26,297 : WARN  : KNIME-Worker-29-X-Partitioner 3:32 :  : Node : Scorer (JavaScript) : 3:35 : The columns selected don't contain any values.
+2024-04-10 21:59:02,940 : WARN  : main :  : Node : Scorer (JavaScript) : 3:35 : The columns selected don't contain any values.
+2024-04-10 21:59:02,942 : WARN  : main :  : Node : Scorer (JavaScript) : 3:35 : The columns selected don't contain any values.
+2024-04-10 21:59:05,208 : WARN  : main :  : Node : Scorer (JavaScript) : 3:35 : The columns selected don't contain any values.
+2024-04-10 21:59:05,880 : WARN  : main :  : Node : Scorer (JavaScript) : 3:35 : The columns selected don't contain any values.
+2024-04-10 21:59:09,870 : WARN  : KNIME-Worker-39-X-Partitioner 3:32 :  : Node : Scorer (JavaScript) : 3:35 : The columns selected don't contain any values.
+2024-04-10 22:01:02,422 : WARN  : main :  : Node : Scorer (JavaScript) : 3:35 : The columns selected don't contain any values.
+2024-04-10 22:01:02,423 : WARN  : main :  : Node : Scorer (JavaScript) : 3:35 : The columns selected don't contain any values.
+2024-04-10 22:01:03,766 : WARN  : main :  : Node : Scorer (JavaScript) : 3:35 : The columns selected don't contain any values.
+2024-04-10 22:01:08,300 : WARN  : KNIME-Worker-44-X-Partitioner 3:32 :  : Node : Scorer (JavaScript) : 3:35 : The columns selected don't contain any values.
+2024-04-10 22:01:44,834 : WARN  : main :  : Node : Scorer (JavaScript) : 3:35 : The columns selected don't contain any values.
+2024-04-10 22:01:44,835 : WARN  : main :  : Node : Scorer (JavaScript) : 3:35 : The columns selected don't contain any values.
+2024-04-10 22:01:45,748 : WARN  : main :  : Node : Scorer (JavaScript) : 3:35 : The columns selected don't contain any values.
+2024-04-10 22:01:47,774 : WARN  : KNIME-Worker-51-X-Partitioner 3:32 :  : Node : Scorer (JavaScript) : 3:35 : The columns selected don't contain any values.
+2024-04-10 22:02:03,022 : WARN  : main :  : Node : Scorer (JavaScript) : 3:35 : The columns selected don't contain any values.
+2024-04-10 22:02:03,023 : WARN  : main :  : Node : Scorer (JavaScript) : 3:35 : The columns selected don't contain any values.
+2024-04-10 22:02:03,974 : WARN  : main :  : Node : Scorer (JavaScript) : 3:35 : The columns selected don't contain any values.
+2024-04-10 22:02:05,715 : WARN  : KNIME-Worker-57-X-Partitioner 3:32 :  : Node : Scorer (JavaScript) : 3:35 : The columns selected don't contain any values.
+2024-04-10 22:02:25,025 : WARN  : main :  : Node : Scorer (JavaScript) : 3:35 : The columns selected don't contain any values.
+2024-04-10 22:02:25,027 : WARN  : main :  : Node : Scorer (JavaScript) : 3:35 : The columns selected don't contain any values.
+2024-04-10 22:02:26,097 : WARN  : main :  : Node : Scorer (JavaScript) : 3:35 : The columns selected don't contain any values.
+2024-04-10 22:02:27,783 : WARN  : KNIME-Worker-45-X-Partitioner 3:32 :  : Node : Scorer (JavaScript) : 3:35 : The columns selected don't contain any values.
+2024-04-10 22:02:41,071 : WARN  : main :  : Node : Scorer (JavaScript) : 3:35 : The columns selected don't contain any values.
+2024-04-10 22:02:41,072 : WARN  : main :  : Node : Scorer (JavaScript) : 3:35 : The columns selected don't contain any values.
+2024-04-10 22:02:42,317 : WARN  : main :  : Node : Scorer (JavaScript) : 3:35 : The columns selected don't contain any values.
+2024-04-10 22:02:48,354 : WARN  : KNIME-Worker-45-X-Partitioner 3:32 :  : Node : Scorer (JavaScript) : 3:35 : The columns selected don't contain any values.
+2024-04-10 22:03:15,429 : WARN  : main :  : Node : Scorer (JavaScript) : 3:35 : The columns selected don't contain any values.
+2024-04-10 22:03:15,433 : WARN  : main :  : Node : Scorer (JavaScript) : 3:35 : The columns selected don't contain any values.
+2024-04-10 22:03:16,457 : WARN  : main :  : Node : Scorer (JavaScript) : 3:35 : The columns selected don't contain any values.
+2024-04-10 22:03:20,365 : WARN  : KNIME-Worker-46-X-Partitioner 3:32 :  : Node : Scorer (JavaScript) : 3:35 : The columns selected don't contain any values.
+2024-04-10 22:03:33,295 : WARN  : main :  : Node : Scorer (JavaScript) : 3:35 : The columns selected don't contain any values.
+2024-04-10 22:03:33,296 : WARN  : main :  : Node : Scorer (JavaScript) : 3:35 : The columns selected don't contain any values.
+2024-04-10 22:03:34,193 : WARN  : main :  : Node : Scorer (JavaScript) : 3:35 : The columns selected don't contain any values.
+2024-04-10 22:03:35,818 : WARN  : KNIME-Worker-45-X-Partitioner 3:32 :  : Node : Scorer (JavaScript) : 3:35 : The columns selected don't contain any values.
+2024-04-10 22:10:43,945 : WARN  : main :  : Node : Scorer (JavaScript) : 3:35 : The columns selected don't contain any values.
+2024-04-10 22:10:43,947 : WARN  : main :  : Node : Scorer (JavaScript) : 3:35 : The columns selected don't contain any values.
+2024-04-10 22:10:46,031 : WARN  : main :  : Node : Scorer (JavaScript) : 3:35 : The columns selected don't contain any values.
+2024-04-10 22:10:48,270 : WARN  : KNIME-Worker-60-X-Partitioner 3:32 :  : Node : Scorer (JavaScript) : 3:35 : The columns selected don't contain any values.
+2024-04-10 22:12:52,633 : WARN  : main :  : Node : Scorer (JavaScript) : 3:35 : The columns selected don't contain any values.
+2024-04-10 22:12:52,635 : WARN  : main :  : Node : Scorer (JavaScript) : 3:35 : The columns selected don't contain any values.
+2024-04-10 22:12:55,052 : WARN  : main :  : Node : Scorer (JavaScript) : 3:35 : The columns selected don't contain any values.
+2024-04-10 22:12:55,995 : WARN  : main :  : Node : Scorer (JavaScript) : 3:35 : The columns selected don't contain any values.
+2024-04-10 22:12:58,131 : WARN  : KNIME-Worker-81-X-Partitioner 3:32 :  : Node : Scorer (JavaScript) : 3:35 : The columns selected don't contain any values.
+2024-04-10 22:13:06,352 : WARN  : main :  : Node : Scorer (JavaScript) : 3:35 : The columns selected don't contain any values.
+2024-04-10 22:13:06,353 : WARN  : main :  : Node : Scorer (JavaScript) : 3:35 : The columns selected don't contain any values.
+2024-04-10 22:13:07,501 : WARN  : main :  : Node : Scorer (JavaScript) : 3:35 : The columns selected don't contain any values.
+2024-04-10 22:13:09,266 : WARN  : KNIME-Worker-79-X-Partitioner 3:32 :  : Node : Scorer (JavaScript) : 3:35 : The columns selected don't contain any values.
+2024-04-10 22:13:25,039 : WARN  : main :  : Node : Scorer (JavaScript) : 3:35 : The columns selected don't contain any values.
+2024-04-10 22:13:25,040 : WARN  : main :  : Node : Scorer (JavaScript) : 3:35 : The columns selected don't contain any values.
+2024-04-10 22:13:26,287 : WARN  : main :  : Node : Scorer (JavaScript) : 3:35 : The columns selected don't contain any values.
+2024-04-10 22:13:27,428 : WARN  : KNIME-Worker-83-X-Partitioner 3:32 :  : Node : Scorer (JavaScript) : 3:35 : The columns selected don't contain any values.
+2024-04-10 22:13:38,127 : WARN  : main :  : Node : Scorer (JavaScript) : 3:35 : The columns selected don't contain any values.
+2024-04-10 22:13:38,128 : WARN  : main :  : Node : Scorer (JavaScript) : 3:35 : The columns selected don't contain any values.
+2024-04-10 22:13:38,977 : WARN  : main :  : Node : Scorer (JavaScript) : 3:35 : The columns selected don't contain any values.
+2024-04-10 22:13:40,651 : WARN  : KNIME-Worker-84-X-Partitioner 3:32 :  : Node : Scorer (JavaScript) : 3:35 : The columns selected don't contain any values.
