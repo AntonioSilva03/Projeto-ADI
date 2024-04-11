@@ -56,9 +56,9 @@
             {
                 "id": "org.knime.base.node.stats.dataexplorer.DataExplorerNodeFactory",
                 "nodename": "Data Explorer",
-                "nrexecs": 40,
+                "nrexecs": 41,
                 "nrfails": 0,
-                "exectime": 1352,
+                "exectime": 1403,
                 "nrcreated": 4,
                 "successor": "n/a",
                 "successornodename": "n/a"
@@ -246,12 +246,12 @@
             {
                 "id": "org.knime.base.node.mine.cluster.kmeans.ClusterNodeFactory2",
                 "nodename": "k-Means",
-                "nrexecs": 0,
+                "nrexecs": 13,
                 "nrfails": 0,
-                "exectime": 0,
+                "exectime": 360,
                 "nrcreated": 1,
-                "successor": "n/a",
-                "successornodename": "n/a"
+                "successor": "org.knime.base.node.mine.cluster.assign.ClusterAssignerNodeFactory",
+                "successornodename": "Cluster Assigner"
             },
             {
                 "id": "org.knime.base.node.mine.regression.logistic.learner4.LogRegLearnerNodeFactory4",
@@ -260,8 +260,8 @@
                 "nrfails": 0,
                 "exectime": 0,
                 "nrcreated": 1,
-                "successor": "n/a",
-                "successornodename": "n/a"
+                "successor": "org.knime.base.node.mine.regression.logistic.predictor.LogisticRegressionPredictorNodeFactory",
+                "successornodename": "Logistic Regression Predictor"
             },
             {
                 "id": "org.knime.base.node.mine.treeensemble2.node.randomforest.learner.classification.RandomForestClassificationLearnerNodeFactory2",
@@ -300,18 +300,18 @@
                 "nrfails": 0,
                 "exectime": 0,
                 "nrcreated": 1,
-                "successor": "n/a",
-                "successornodename": "n/a"
+                "successor": "org.knime.base.node.mine.treeensemble2.node.regressiontree.predictor.RegressionTreePredictorNodeFactory",
+                "successornodename": "Simple Regression Tree Predictor"
             },
             {
                 "id": "org.knime.base.node.mine.treeensemble2.node.gradientboosting.learner.classification.GradientBoostingClassificationLearnerNodeFactory2",
                 "nodename": "Gradient Boosted Trees Learner",
-                "nrexecs": 0,
+                "nrexecs": 10,
                 "nrfails": 0,
-                "exectime": 0,
+                "exectime": 2413,
                 "nrcreated": 1,
-                "successor": "n/a",
-                "successornodename": "n/a"
+                "successor": "org.knime.base.node.mine.treeensemble2.node.gradientboosting.predictor.classification.GradientBoostingClassificationPredictorNodeFactory3",
+                "successornodename": "Gradient Boosted Trees Predictor"
             },
             {
                 "id": "org.knime.base.node.mine.sota.SotaLearnerNodeFactory",
@@ -326,19 +326,19 @@
             {
                 "id": "org.knime.base.node.preproc.partition.PartitionNodeFactory",
                 "nodename": "Partitioning",
-                "nrexecs": 3,
+                "nrexecs": 9,
                 "nrfails": 0,
-                "exectime": 195,
-                "nrcreated": 1,
-                "successor": "org.knime.base.node.mine.decisiontree2.learner2.DecisionTreeLearnerNodeFactory3",
-                "successornodename": "Decision Tree Learner"
+                "exectime": 297,
+                "nrcreated": 2,
+                "successor": "org.knime.base.node.mine.cluster.kmeans.ClusterNodeFactory2",
+                "successornodename": "k-Means"
             },
             {
                 "id": "org.knime.js.base.node.scorer.ScorerNodeFactory",
                 "nodename": "Scorer (JavaScript)",
-                "nrexecs": 22,
+                "nrexecs": 23,
                 "nrfails": 0,
-                "exectime": 112,
+                "exectime": 126,
                 "nrcreated": 1,
                 "successor": "n/a",
                 "successornodename": "n/a"
@@ -346,19 +346,19 @@
             {
                 "id": "org.knime.base.node.meta.xvalidation.XValidatePartitionerFactory",
                 "nodename": "X-Partitioner",
-                "nrexecs": 190,
+                "nrexecs": 201,
                 "nrfails": 0,
-                "exectime": 2198,
+                "exectime": 2410,
                 "nrcreated": 1,
-                "successor": "org.knime.base.node.mine.treeensemble2.node.randomforest.predictor.classification.RandomForestClassificationPredictorNodeFactory2",
-                "successornodename": "Random Forest Predictor"
+                "successor": "org.knime.base.node.mine.cluster.kmeans.ClusterNodeFactory2",
+                "successornodename": "k-Means"
             },
             {
                 "id": "org.knime.base.node.meta.xvalidation.AggregateOutputNodeFactory",
                 "nodename": "X-Aggregator",
-                "nrexecs": 190,
+                "nrexecs": 200,
                 "nrfails": 0,
-                "exectime": 179,
+                "exectime": 198,
                 "nrcreated": 1,
                 "successor": "org.knime.js.base.node.scorer.ScorerNodeFactory",
                 "successornodename": "Scorer (JavaScript)"
@@ -382,6 +382,66 @@
                 "nrcreated": 1,
                 "successor": "n/a",
                 "successornodename": "n/a"
+            },
+            {
+                "id": "org.knime.base.node.mine.treeensemble2.node.gradientboosting.predictor.classification.GradientBoostingClassificationPredictorNodeFactory3",
+                "nodename": "Gradient Boosted Trees Predictor",
+                "nrexecs": 10,
+                "nrfails": 0,
+                "exectime": 291,
+                "nrcreated": 1,
+                "successor": "org.knime.base.node.meta.xvalidation.AggregateOutputNodeFactory",
+                "successornodename": "X-Aggregator"
+            },
+            {
+                "id": "org.knime.base.node.mine.regression.logistic.predictor.LogisticRegressionPredictorNodeFactory",
+                "nodename": "Logistic Regression Predictor",
+                "nrexecs": 0,
+                "nrfails": 0,
+                "exectime": 0,
+                "nrcreated": 1,
+                "successor": "org.knime.base.node.meta.xvalidation.AggregateOutputNodeFactory",
+                "successornodename": "X-Aggregator"
+            },
+            {
+                "id": "org.knime.base.node.mine.treeensemble2.node.regressiontree.predictor.RegressionTreePredictorNodeFactory",
+                "nodename": "Simple Regression Tree Predictor",
+                "nrexecs": 0,
+                "nrfails": 0,
+                "exectime": 0,
+                "nrcreated": 1,
+                "successor": "org.knime.base.node.meta.xvalidation.AggregateOutputNodeFactory",
+                "successornodename": "X-Aggregator"
+            },
+            {
+                "id": "org.knime.base.node.mine.cluster.assign.ClusterAssignerNodeFactory",
+                "nodename": "Cluster Assigner",
+                "nrexecs": 16,
+                "nrfails": 0,
+                "exectime": 399,
+                "nrcreated": 1,
+                "successor": "org.knime.js.base.node.scorer.ScorerNodeFactory",
+                "successornodename": "Scorer (JavaScript)"
+            },
+            {
+                "id": "org.knime.base.views.node.scatterplot.ScatterPlotNodeFactory",
+                "nodename": "Scatter Plot",
+                "nrexecs": 3,
+                "nrfails": 0,
+                "exectime": 1,
+                "nrcreated": 1,
+                "successor": "n/a",
+                "successornodename": "n/a"
+            },
+            {
+                "id": "org.knime.base.node.viz.property.color.ColorManager2NodeFactory",
+                "nodename": "Color Manager",
+                "nrexecs": 5,
+                "nrfails": 0,
+                "exectime": 4,
+                "nrcreated": 1,
+                "successor": "org.knime.base.views.node.scatterplot.ScatterPlotNodeFactory",
+                "successornodename": "Scatter Plot"
             }
         ],
         "metaNodes": {
@@ -389,11 +449,11 @@
         "wrappedNodes": {
         },
         "createdVia": {
-            "WEB_UI": 64
+            "WEB_UI": 71
         }
     },
-    "uptime": 7298163,
-    "workflowsOpened": 20,
+    "uptime": 8109336,
+    "workflowsOpened": 21,
     "remoteWorkflowsOpened": 0,
     "columnarStorageWorkflowsOpened": 0,
     "workflowsImported": 0,
@@ -401,9 +461,9 @@
     "webUIPerspectiveSwitches": 0,
     "javaUIPerspectiveSwitches": 0,
     "lastUsedPerspective": "none",
-    "launches": 11,
+    "launches": 12,
     "lastApplicationID": "org.knime.product.KNIME_APPLICATION",
-    "timeSinceLastStart": 76512,
+    "timeSinceLastStart": 17032242,
     "crashes": 0,
     "properlyShutDown": true
 }
