@@ -419,7 +419,7 @@
             <config key="upper_bound">
                 <entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
                 <config key="org.knime.core.data.def.DoubleCell">
-                    <entry key="DoubleCell" type="xdouble" value="0.6666666865348816"/>
+                    <entry key="DoubleCell" type="xdouble" value="0.5"/>
                 </config>
             </config>
         </config>
@@ -469,7 +469,7 @@
             <config key="upper_bound">
                 <entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
                 <config key="org.knime.core.data.def.DoubleCell">
-                    <entry key="DoubleCell" type="xdouble" value="0.6666666865348816"/>
+                    <entry key="DoubleCell" type="xdouble" value="1.0"/>
                 </config>
             </config>
         </config>
@@ -515,31 +515,31 @@
                 <config key="0">
                     <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
                     <config key="org.knime.core.data.def.StringCell">
-                        <entry key="StringCell" type="xstring" value="0s=suspect Blood Donor"/>
+                        <entry key="StringCell" type="xstring" value="0=Blood Donor"/>
                     </config>
                 </config>
                 <config key="1">
                     <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
                     <config key="org.knime.core.data.def.StringCell">
-                        <entry key="StringCell" type="xstring" value="0=Blood Donor"/>
+                        <entry key="StringCell" type="xstring" value="2=Fibrosis"/>
                     </config>
                 </config>
                 <config key="2">
                     <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
                     <config key="org.knime.core.data.def.StringCell">
-                        <entry key="StringCell" type="xstring" value="1=Hepatitis"/>
+                        <entry key="StringCell" type="xstring" value="0s=suspect Blood Donor"/>
                     </config>
                 </config>
                 <config key="3">
                     <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
                     <config key="org.knime.core.data.def.StringCell">
-                        <entry key="StringCell" type="xstring" value="3=Cirrhosis"/>
+                        <entry key="StringCell" type="xstring" value="1=Hepatitis"/>
                     </config>
                 </config>
                 <config key="4">
                     <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
                     <config key="org.knime.core.data.def.StringCell">
-                        <entry key="StringCell" type="xstring" value="2=Fibrosis"/>
+                        <entry key="StringCell" type="xstring" value="3=Cirrhosis"/>
                     </config>
                 </config>
             </config>
@@ -559,7 +559,7 @@
             <config key="lower_bound">
                 <entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
                 <config key="org.knime.core.data.def.DoubleCell">
-                    <entry key="DoubleCell" type="xdouble" value="0.25"/>
+                    <entry key="DoubleCell" type="xdouble" value="0.3333333432674408"/>
                 </config>
             </config>
             <config key="upper_bound">

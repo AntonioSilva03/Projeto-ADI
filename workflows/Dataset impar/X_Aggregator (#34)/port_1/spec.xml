@@ -396,13 +396,13 @@
                 <config key="1">
                     <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
                     <config key="org.knime.core.data.def.StringCell">
-                        <entry key="StringCell" type="xstring" value="0s=suspect Blood Donor"/>
+                        <entry key="StringCell" type="xstring" value="1=Hepatitis"/>
                     </config>
                 </config>
                 <config key="2">
                     <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
                     <config key="org.knime.core.data.def.StringCell">
-                        <entry key="StringCell" type="xstring" value="1=Hepatitis"/>
+                        <entry key="StringCell" type="xstring" value="2=Fibrosis"/>
                     </config>
                 </config>
                 <config key="3">
@@ -414,7 +414,7 @@
                 <config key="4">
                     <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
                     <config key="org.knime.core.data.def.StringCell">
-                        <entry key="StringCell" type="xstring" value="2=Fibrosis"/>
+                        <entry key="StringCell" type="xstring" value="0s=suspect Blood Donor"/>
                     </config>
                 </config>
             </config>

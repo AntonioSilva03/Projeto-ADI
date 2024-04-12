@@ -49,22 +49,6 @@
         </config>
         <entry key="generic_parse" type="xboolean" value="false"/>
         <entry key="fail_on_error" type="xboolean" value="true"/>
-        <config key="decimal_separator_Internals">
-            <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
-            <entry key="EnabledStatus" type="xboolean" value="true"/>
-        </config>
-        <config key="thousands_separator_Internals">
-            <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
-            <entry key="EnabledStatus" type="xboolean" value="true"/>
-        </config>
-        <config key="generic_parse_Internals">
-            <entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
-            <entry key="EnabledStatus" type="xboolean" value="true"/>
-        </config>
-        <config key="fail_on_error_Internals">
-            <entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
-            <entry key="EnabledStatus" type="xboolean" value="true"/>
-        </config>
     </config>
     <config key="variables">
         <entry key="version" type="xstring" value="V_2019_09_13"/>
@@ -98,11 +82,11 @@
     <entry key="node-bundle-name" type="xstring" value="KNIME Base Nodes"/>
     <entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.base"/>
     <entry key="node-bundle-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
-    <entry key="node-bundle-version" type="xstring" value="5.2.1.v202401291620"/>
+    <entry key="node-bundle-version" type="xstring" value="5.2.2.v202403061155"/>
     <entry key="node-feature-name" type="xstring" value="KNIME Base nodes"/>
     <entry key="node-feature-symbolic-name" type="xstring" value="org.knime.features.base.feature.group"/>
     <entry key="node-feature-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
-    <entry key="node-feature-version" type="xstring" value="5.2.1.v202401291620"/>
+    <entry key="node-feature-version" type="xstring" value="5.2.2.v202403061155"/>
     <config key="factory_settings"/>
     <entry key="name" type="xstring" value="String to Number"/>
     <entry key="hasContent" type="xboolean" value="true"/>
@@ -118,6 +102,6 @@
     </config>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" value="9fbb8d35-b45b-41ef-92b3-b591b00fa7ce"/>
+        <entry key="file_store_id" type="xstring" value="363e26a4-a35d-400d-9cc2-478108b11c71"/>
     </config>
 </config>

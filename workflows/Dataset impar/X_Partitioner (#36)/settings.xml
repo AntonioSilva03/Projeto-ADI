@@ -67,11 +67,11 @@
     <entry key="node-bundle-name" type="xstring" value="KNIME Base Nodes"/>
     <entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.base"/>
     <entry key="node-bundle-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
-    <entry key="node-bundle-version" type="xstring" value="5.2.1.v202401291620"/>
+    <entry key="node-bundle-version" type="xstring" value="5.2.2.v202403061155"/>
     <entry key="node-feature-name" type="xstring" value="KNIME Base nodes"/>
     <entry key="node-feature-symbolic-name" type="xstring" value="org.knime.features.base.feature.group"/>
     <entry key="node-feature-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
-    <entry key="node-feature-version" type="xstring" value="5.2.1.v202401291620"/>
+    <entry key="node-feature-version" type="xstring" value="5.2.2.v202403061155"/>
     <config key="factory_settings"/>
     <entry key="name" type="xstring" value="X-Partitioner"/>
     <entry key="hasContent" type="xboolean" value="true"/>
@@ -94,6 +94,6 @@
     </config>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" value="d0e51c1e-fa94-4164-b113-47583da1f35b"/>
+        <entry key="file_store_id" type="xstring" value="48a2105e-7289-49d7-8ce3-09448181a18b"/>
     </config>
 </config>
