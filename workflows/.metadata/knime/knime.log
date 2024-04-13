@@ -2519,3 +2519,184 @@ java.lang.IllegalStateException: Cannot load settings into node; it is executing
 2024-04-12 22:17:54,982 : WARN  : KNIME-Worker-3-SOTA Predictor 3:57 :  : Node : Scorer (JavaScript) : 3:58 : Please configure the node.
 2024-04-12 22:18:26,224 : WARN  : main :  : Node : Scorer (JavaScript) : 3:58 : The columns selected don't contain any values.
 2024-04-12 22:18:27,001 : WARN  : main :  : Node : Scorer (JavaScript) : 3:58 : The columns selected don't contain any values.
+2024-04-13 18:19:59,047 : WARN  : comm-pool-thread-4 :  : Node : Scorer (JavaScript) : 3:29 : The columns selected don't contain any values.
+2024-04-13 18:20:20,803 : WARN  : comm-pool-thread-4 :  : Node : Scorer (JavaScript) : 3:35 : The columns selected don't contain any values.
+2024-04-13 18:20:43,567 : WARN  : comm-pool-thread-4 :  : Node : Scorer (JavaScript) : 3:39 : The columns selected don't contain any values.
+2024-04-13 18:21:15,972 : WARN  : main :  : Node : Scorer (JavaScript) : 3:39 : The columns selected don't contain any values.
+2024-04-13 18:21:16,449 : WARN  : main :  : Node : Scorer (JavaScript) : 3:39 : The columns selected don't contain any values.
+2024-04-13 18:21:31,883 : WARN  : main :  : Node : Scorer (JavaScript) : 3:39 : The columns selected don't contain any values.
+2024-04-13 18:21:32,762 : WARN  : main :  : Node : Scorer (JavaScript) : 3:39 : The columns selected don't contain any values.
+2024-04-13 18:22:05,368 : WARN  : main :  : Node : Scorer (JavaScript) : 3:35 : The columns selected don't contain any values.
+2024-04-13 18:22:05,997 : WARN  : main :  : Node : Scorer (JavaScript) : 3:35 : The columns selected don't contain any values.
+2024-04-13 18:58:10,462 : WARN  : comm-pool-thread-11 :  : Node : Partitioning : 4:3 : No sampling method selected
+2024-04-13 18:59:04,489 : WARN  : comm-pool-thread-12 :  : Node : Partitioning : 4:2 : No sampling method selected
+2024-04-13 18:59:05,942 : WARN  : comm-pool-thread-12 :  : Node : Partitioning : 4:5 : No sampling method selected
+2024-04-13 18:59:07,703 : WARN  : comm-pool-thread-12 :  : Node : Partitioning : 4:4 : No sampling method selected
+2024-04-13 19:00:55,579 : WARN  : main :  : Node : Simple Regression Tree Learner : 4:10 : No configuration available
+2024-04-13 19:00:56,410 : WARN  : main :  : Node : Simple Regression Tree Learner : 4:10 : No configuration available
+2024-04-13 19:01:11,575 : WARN  : main :  : Node : Numeric Scorer : 4:9 : No columns selected for reference
+2024-04-13 19:01:12,204 : WARN  : main :  : Node : Numeric Scorer : 4:9 : No columns selected for reference
+2024-04-13 19:02:02,904 : WARN  : main :  : Node : Random Forest Learner (Regression) : 4:12 : No configuration available
+2024-04-13 19:02:03,377 : WARN  : main :  : Node : Random Forest Learner (Regression) : 4:12 : No configuration available
+2024-04-13 19:06:18,394 : WARN  : main :  : Node : Partitioning : 4:5 : No sampling method selected
+2024-04-13 19:06:18,394 : WARN  : main :  : Node : Partitioning : 4:4 : No sampling method selected
+2024-04-13 19:06:18,395 : WARN  : main :  : Node : Simple Regression Tree Learner : 4:10 : Target column "price" does not exist or is not of the correct type
+2024-04-13 19:06:18,395 : WARN  : main :  : Node : Random Forest Learner (Regression) : 4:12 : No configuration available
+2024-04-13 19:06:22,716 : WARN  : main :  : Node : Partitioning : 4:5 : No sampling method selected
+2024-04-13 19:06:22,716 : WARN  : main :  : Node : Partitioning : 4:4 : No sampling method selected
+2024-04-13 19:06:22,716 : WARN  : main :  : Node : Simple Regression Tree Learner : 4:10 : Target column "price" does not exist or is not of the correct type
+2024-04-13 19:06:22,717 : WARN  : main :  : Node : Random Forest Learner (Regression) : 4:12 : No configuration available
+2024-04-13 19:06:23,484 : WARN  : main :  : Node : Partitioning : 4:5 : No sampling method selected
+2024-04-13 19:06:23,485 : WARN  : main :  : Node : Partitioning : 4:4 : No sampling method selected
+2024-04-13 19:06:23,486 : WARN  : main :  : Node : Simple Regression Tree Learner : 4:10 : Target column "price" does not exist or is not of the correct type
+2024-04-13 19:06:23,487 : WARN  : main :  : Node : Random Forest Learner (Regression) : 4:12 : No configuration available
+2024-04-13 19:06:26,662 : ERROR : KNIME-Worker-39-CSV Reader 4:1 :  : Node : CSV Reader : 4:1 : Execute failed: Row with ID 'Row15266' can't be converted to the configured data types. Increasing the number of scanned rows or changing the target types might resolve the issue. Content of row: [Toyota, 2011, Hiace, nan, 2011 Toyota Hiace, USED, -, -, Other, -, -, -, - / -, West Ryde, NSW, -, null, null, null, POA]
+org.knime.filehandling.core.node.table.reader.type.mapping.MappingRuntimeException: Row with ID 'Row15266' can't be converted to the configured data types. Increasing the number of scanned rows or changing the target types might resolve the issue. Content of row: [Toyota, 2011, Hiace, nan, 2011 Toyota Hiace, USED, -, -, Other, -, -, -, - / -, West Ryde, NSW, -, null, null, null, POA]
+	at org.knime.filehandling.core.node.table.reader.TypeMapperExceptionParser.parse(TypeMapperExceptionParser.java:84)
+	at org.knime.filehandling.core.node.table.reader.DefaultStagedMultiTableRead$ParallelMultiTableRead.tryToParseException(DefaultStagedMultiTableRead.java:416)
+	at org.knime.filehandling.core.node.table.reader.DefaultStagedMultiTableRead$ParallelMultiTableRead.readTable(DefaultStagedMultiTableRead.java:297)
+	at org.knime.filehandling.core.node.table.reader.MultiTableReader.readTable(MultiTableReader.java:170)
+	at org.knime.filehandling.core.node.table.reader.TableReaderNodeModel.execute(TableReaderNodeModel.java:160)
+	at org.knime.core.node.NodeModel.executeModel(NodeModel.java:588)
+	at org.knime.core.node.Node.invokeFullyNodeModelExecute(Node.java:1297)
+	at org.knime.core.node.Node.execute(Node.java:1059)
+	at org.knime.core.node.workflow.NativeNodeContainer.performExecuteNode(NativeNodeContainer.java:595)
+	at org.knime.core.node.exec.LocalNodeExecutionJob.mainExecute(LocalNodeExecutionJob.java:98)
+	at org.knime.core.node.workflow.NodeExecutionJob.internalRun(NodeExecutionJob.java:201)
+	at org.knime.core.node.workflow.NodeExecutionJob.run(NodeExecutionJob.java:117)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:367)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:221)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:123)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:246)
+Caused by: org.knime.filehandling.core.node.table.reader.type.mapping.TypeMapperException: java.lang.NumberFormatException: For input string: "POA"
+	at org.knime.filehandling.core.node.table.reader.type.mapping.DefaultTypeMapper.map(DefaultTypeMapper.java:107)
+	at org.knime.filehandling.core.node.table.reader.DefaultIndividualTableReader.toRow(DefaultIndividualTableReader.java:108)
+	at org.knime.filehandling.core.node.table.reader.DefaultIndividualTableReader.fillOutputWithProgress(DefaultIndividualTableReader.java:149)
+	at org.knime.filehandling.core.node.table.reader.DefaultIndividualTableReader.fillOutput(DefaultIndividualTableReader.java:121)
+	at org.knime.filehandling.core.node.table.reader.DefaultStagedMultiTableRead$ParallelMultiTableRead$TableChunkReader.readTableChunk(DefaultStagedMultiTableRead.java:405)
+	at org.knime.filehandling.core.node.table.reader.DefaultStagedMultiTableRead$ParallelMultiTableRead.readTable(DefaultStagedMultiTableRead.java:295)
+	... 15 more
+Caused by: java.lang.NumberFormatException: For input string: "POA"
+	at java.base/java.lang.NumberFormatException.forInputString(Unknown Source)
+	at java.base/java.lang.Integer.parseInt(Unknown Source)
+	at java.base/java.lang.Integer.parseInt(Unknown Source)
+	at org.knime.base.node.io.filehandling.csv.reader.api.IntegerParser.parseInt(IntegerParser.java:77)
+	at org.knime.base.node.io.filehandling.csv.reader.api.StringReadAdapterFactory$StringToIntCellValueProducer.produceIntCellValue(StringReadAdapterFactory.java:184)
+	at org.knime.base.node.io.filehandling.csv.reader.api.StringReadAdapterFactory$StringToIntCellValueProducer.produceIntCellValue(StringReadAdapterFactory.java:1)
+	at org.knime.core.data.convert.map.IntCellValueProducer.produceCellValue(IntCellValueProducer.java:79)
+	at org.knime.core.data.convert.map.IntCellValueProducer.produceCellValue(IntCellValueProducer.java:1)
+	at org.knime.core.data.convert.map.DefaultDataRowProducer$ObjectMapper.map(DefaultDataRowProducer.java:428)
+	at org.knime.core.data.convert.map.DefaultDataRowProducer.produceDataRow(DefaultDataRowProducer.java:283)
+	at org.knime.filehandling.core.node.table.reader.type.mapping.DefaultTypeMapper.map(DefaultTypeMapper.java:105)
+	... 20 more
+2024-04-13 19:06:26,692 : WARN  : KNIME-Worker-39-CSV Reader 4:1 :  : Node : Partitioning : 4:5 : No sampling method selected
+2024-04-13 19:06:26,696 : WARN  : KNIME-Worker-39-CSV Reader 4:1 :  : Node : Partitioning : 4:4 : No sampling method selected
+2024-04-13 19:06:45,619 : WARN  : main :  : Node : Partitioning : 4:5 : No sampling method selected
+2024-04-13 19:06:45,619 : WARN  : main :  : Node : Partitioning : 4:4 : No sampling method selected
+2024-04-13 19:06:45,620 : WARN  : main :  : Node : Simple Regression Tree Learner : 4:10 : Target column "price" does not exist or is not of the correct type
+2024-04-13 19:06:45,620 : WARN  : main :  : Node : Random Forest Learner (Regression) : 4:12 : No configuration available
+2024-04-13 19:06:45,873 : WARN  : main :  : Node : Partitioning : 4:5 : No sampling method selected
+2024-04-13 19:06:45,874 : WARN  : main :  : Node : Partitioning : 4:4 : No sampling method selected
+2024-04-13 19:06:45,874 : WARN  : main :  : Node : Simple Regression Tree Learner : 4:10 : Target column "price" does not exist or is not of the correct type
+2024-04-13 19:06:45,875 : WARN  : main :  : Node : Random Forest Learner (Regression) : 4:12 : No configuration available
+2024-04-13 19:06:46,490 : WARN  : main :  : Node : Partitioning : 4:5 : No sampling method selected
+2024-04-13 19:06:46,491 : WARN  : main :  : Node : Partitioning : 4:4 : No sampling method selected
+2024-04-13 19:06:46,491 : WARN  : main :  : Node : Simple Regression Tree Learner : 4:10 : Target column "price" does not exist or is not of the correct type
+2024-04-13 19:06:46,491 : WARN  : main :  : Node : Random Forest Learner (Regression) : 4:12 : No configuration available
+2024-04-13 19:06:48,572 : ERROR : KNIME-Worker-40-CSV Reader 4:1 :  : Node : CSV Reader : 4:1 : Execute failed: Row with ID 'Row15266' can't be converted to the configured data types. Increasing the number of scanned rows or changing the target types might resolve the issue. Content of row: [Toyota, 2011, Hiace, nan, 2011 Toyota Hiace, USED, -, -, Other, -, -, -, - / -, West Ryde, NSW, -, null, null, null, POA]
+org.knime.filehandling.core.node.table.reader.type.mapping.MappingRuntimeException: Row with ID 'Row15266' can't be converted to the configured data types. Increasing the number of scanned rows or changing the target types might resolve the issue. Content of row: [Toyota, 2011, Hiace, nan, 2011 Toyota Hiace, USED, -, -, Other, -, -, -, - / -, West Ryde, NSW, -, null, null, null, POA]
+	at org.knime.filehandling.core.node.table.reader.TypeMapperExceptionParser.parse(TypeMapperExceptionParser.java:84)
+	at org.knime.filehandling.core.node.table.reader.DefaultStagedMultiTableRead$ParallelMultiTableRead.tryToParseException(DefaultStagedMultiTableRead.java:416)
+	at org.knime.filehandling.core.node.table.reader.DefaultStagedMultiTableRead$ParallelMultiTableRead.readTable(DefaultStagedMultiTableRead.java:297)
+	at org.knime.filehandling.core.node.table.reader.MultiTableReader.readTable(MultiTableReader.java:170)
+	at org.knime.filehandling.core.node.table.reader.TableReaderNodeModel.execute(TableReaderNodeModel.java:160)
+	at org.knime.core.node.NodeModel.executeModel(NodeModel.java:588)
+	at org.knime.core.node.Node.invokeFullyNodeModelExecute(Node.java:1297)
+	at org.knime.core.node.Node.execute(Node.java:1059)
+	at org.knime.core.node.workflow.NativeNodeContainer.performExecuteNode(NativeNodeContainer.java:595)
+	at org.knime.core.node.exec.LocalNodeExecutionJob.mainExecute(LocalNodeExecutionJob.java:98)
+	at org.knime.core.node.workflow.NodeExecutionJob.internalRun(NodeExecutionJob.java:201)
+	at org.knime.core.node.workflow.NodeExecutionJob.run(NodeExecutionJob.java:117)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:367)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:221)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:123)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:246)
+Caused by: org.knime.filehandling.core.node.table.reader.type.mapping.TypeMapperException: java.lang.NumberFormatException: For input string: "POA"
+	at org.knime.filehandling.core.node.table.reader.type.mapping.DefaultTypeMapper.map(DefaultTypeMapper.java:107)
+	at org.knime.filehandling.core.node.table.reader.DefaultIndividualTableReader.toRow(DefaultIndividualTableReader.java:108)
+	at org.knime.filehandling.core.node.table.reader.DefaultIndividualTableReader.fillOutputWithProgress(DefaultIndividualTableReader.java:149)
+	at org.knime.filehandling.core.node.table.reader.DefaultIndividualTableReader.fillOutput(DefaultIndividualTableReader.java:121)
+	at org.knime.filehandling.core.node.table.reader.DefaultStagedMultiTableRead$ParallelMultiTableRead$TableChunkReader.readTableChunk(DefaultStagedMultiTableRead.java:405)
+	at org.knime.filehandling.core.node.table.reader.DefaultStagedMultiTableRead$ParallelMultiTableRead.readTable(DefaultStagedMultiTableRead.java:295)
+	... 15 more
+Caused by: java.lang.NumberFormatException: For input string: "POA"
+	at java.base/java.lang.NumberFormatException.forInputString(Unknown Source)
+	at java.base/java.lang.Integer.parseInt(Unknown Source)
+	at java.base/java.lang.Integer.parseInt(Unknown Source)
+	at org.knime.base.node.io.filehandling.csv.reader.api.IntegerParser.parseInt(IntegerParser.java:77)
+	at org.knime.base.node.io.filehandling.csv.reader.api.StringReadAdapterFactory$StringToIntCellValueProducer.produceIntCellValue(StringReadAdapterFactory.java:184)
+	at org.knime.base.node.io.filehandling.csv.reader.api.StringReadAdapterFactory$StringToIntCellValueProducer.produceIntCellValue(StringReadAdapterFactory.java:1)
+	at org.knime.core.data.convert.map.IntCellValueProducer.produceCellValue(IntCellValueProducer.java:79)
+	at org.knime.core.data.convert.map.IntCellValueProducer.produceCellValue(IntCellValueProducer.java:1)
+	at org.knime.core.data.convert.map.DefaultDataRowProducer$ObjectMapper.map(DefaultDataRowProducer.java:428)
+	at org.knime.core.data.convert.map.DefaultDataRowProducer.produceDataRow(DefaultDataRowProducer.java:283)
+	at org.knime.filehandling.core.node.table.reader.type.mapping.DefaultTypeMapper.map(DefaultTypeMapper.java:105)
+	... 20 more
+2024-04-13 19:06:48,581 : WARN  : KNIME-Worker-40-CSV Reader 4:1 :  : Node : Partitioning : 4:5 : No sampling method selected
+2024-04-13 19:06:48,582 : WARN  : KNIME-Worker-40-CSV Reader 4:1 :  : Node : Partitioning : 4:4 : No sampling method selected
+2024-04-13 19:11:23,451 : WARN  : main :  : Node : Partitioning : 4:5 : No sampling method selected
+2024-04-13 19:11:23,456 : WARN  : main :  : Node : Partitioning : 4:4 : No sampling method selected
+2024-04-13 19:11:23,457 : WARN  : main :  : Node : Simple Regression Tree Learner : 4:10 : Target column "price" does not exist or is not of the correct type
+2024-04-13 19:11:23,458 : WARN  : main :  : Node : Random Forest Learner (Regression) : 4:12 : No configuration available
+2024-04-13 19:11:24,290 : WARN  : main :  : Node : Partitioning : 4:5 : No sampling method selected
+2024-04-13 19:11:24,290 : WARN  : main :  : Node : Partitioning : 4:4 : No sampling method selected
+2024-04-13 19:11:24,290 : WARN  : main :  : Node : Simple Regression Tree Learner : 4:10 : Target column "price" does not exist or is not of the correct type
+2024-04-13 19:11:24,290 : WARN  : main :  : Node : Random Forest Learner (Regression) : 4:12 : No configuration available
+2024-04-13 19:11:26,404 : WARN  : KNIME-Worker-41-CSV Reader 4:1 :  : Node : Partitioning : 4:5 : No sampling method selected
+2024-04-13 19:11:26,407 : WARN  : KNIME-Worker-41-CSV Reader 4:1 :  : Node : Partitioning : 4:4 : No sampling method selected
+2024-04-13 19:11:26,409 : WARN  : KNIME-Worker-41-CSV Reader 4:1 :  : Node : Simple Regression Tree Learner : 4:10 : Target column "price" does not exist or is not of the correct type
+2024-04-13 19:11:26,409 : WARN  : KNIME-Worker-41-CSV Reader 4:1 :  : Node : Random Forest Learner (Regression) : 4:12 : No configuration available
+2024-04-13 19:12:00,289 : WARN  : comm-pool-thread-15 :  : Node : Random Forest Learner (Regression) : 4:12 : No configuration available
+2024-04-13 19:12:02,308 : WARN  : comm-pool-thread-15 :  : Node : Partitioning : 4:5 : No sampling method selected
+2024-04-13 19:12:04,293 : WARN  : comm-pool-thread-15 :  : Node : Partitioning : 4:4 : No sampling method selected
+2024-04-13 19:12:11,424 : WARN  : comm-pool-thread-15 :  : Node : Simple Regression Tree Learner : 4:10 : Target column "price" does not exist or is not of the correct type
+2024-04-13 19:12:34,687 : WARN  : main :  : Node : Partitioning : 4:5 : No sampling method selected
+2024-04-13 19:12:34,688 : WARN  : main :  : Node : Partitioning : 4:4 : No sampling method selected
+2024-04-13 19:12:34,689 : WARN  : main :  : Node : Random Forest Learner (Regression) : 4:12 : No configuration available
+2024-04-13 19:12:34,690 : WARN  : main :  : Node : Simple Regression Tree Learner : 4:10 : Target column "price" does not exist or is not of the correct type
+2024-04-13 19:12:35,904 : WARN  : main :  : Node : Partitioning : 4:5 : No sampling method selected
+2024-04-13 19:12:35,905 : WARN  : main :  : Node : Partitioning : 4:4 : No sampling method selected
+2024-04-13 19:12:35,906 : WARN  : main :  : Node : Random Forest Learner (Regression) : 4:12 : No configuration available
+2024-04-13 19:12:35,908 : WARN  : main :  : Node : Simple Regression Tree Learner : 4:10 : Target column "price" does not exist or is not of the correct type
+2024-04-13 19:12:36,150 : WARN  : main :  : Node : Partitioning : 4:5 : No sampling method selected
+2024-04-13 19:12:36,151 : WARN  : main :  : Node : Partitioning : 4:4 : No sampling method selected
+2024-04-13 19:12:36,152 : WARN  : main :  : Node : Random Forest Learner (Regression) : 4:12 : No configuration available
+2024-04-13 19:12:36,153 : WARN  : main :  : Node : Simple Regression Tree Learner : 4:10 : Target column "price" does not exist or is not of the correct type
+2024-04-13 19:12:37,206 : WARN  : main :  : Node : Partitioning : 4:5 : No sampling method selected
+2024-04-13 19:12:37,207 : WARN  : main :  : Node : Partitioning : 4:4 : No sampling method selected
+2024-04-13 19:12:37,208 : WARN  : main :  : Node : Random Forest Learner (Regression) : 4:12 : No configuration available
+2024-04-13 19:12:37,208 : WARN  : main :  : Node : Simple Regression Tree Learner : 4:10 : Target column "price" does not exist or is not of the correct type
+2024-04-13 19:12:38,802 : WARN  : KNIME-Worker-43-Missing Value 4:18 :  : Node : Missing Value : 4:18 : The current settings use missing value handling methods that cannot be represented in PMML 4.2.
+2024-04-13 19:12:38,875 : WARN  : KNIME-Worker-43-Missing Value 4:18 :  : Node : Partitioning : 4:5 : No sampling method selected
+2024-04-13 19:12:38,876 : WARN  : KNIME-Worker-43-Missing Value 4:18 :  : Node : Partitioning : 4:4 : No sampling method selected
+2024-04-13 19:14:53,350 : WARN  : main :  : Node : Simple Regression Tree Learner : 4:10 : Target column "price" does not exist or is not of the correct type
+2024-04-13 19:14:53,936 : WARN  : main :  : Node : Simple Regression Tree Learner : 4:10 : Target column "price" does not exist or is not of the correct type
+2024-04-13 19:15:24,391 : WARN  : main :  : Node : Numeric Scorer : 4:9 : No such column in input table: price
+2024-04-13 19:15:25,733 : WARN  : main :  : Node : Numeric Scorer : 4:9 : No such column in input table: price
+2024-04-13 19:15:54,998 : WARN  : main :  : Node : Numeric Scorer : 4:7 : No columns selected for reference
+2024-04-13 19:15:56,003 : WARN  : main :  : Node : Numeric Scorer : 4:7 : No columns selected for reference
+2024-04-13 19:16:40,351 : WARN  : main :  : Node : Tree Ensemble Learner (Regression) : 4:15 : No configuration available
+2024-04-13 19:16:41,020 : WARN  : main :  : Node : Tree Ensemble Learner (Regression) : 4:15 : No configuration available
+2024-04-13 19:16:49,617 : WARN  : main :  : Node : Numeric Scorer : 4:6 : No columns selected for reference
+2024-04-13 19:16:50,561 : WARN  : main :  : Node : Numeric Scorer : 4:6 : No columns selected for reference
+2024-04-13 19:17:18,569 : WARN  : main :  : Node : Gradient Boosted Trees Learner (Regression) : 4:16 : No configuration available
+2024-04-13 19:17:19,302 : WARN  : main :  : Node : Gradient Boosted Trees Learner (Regression) : 4:16 : No configuration available
+2024-04-13 19:17:31,501 : WARN  : main :  : Node : Numeric Scorer : 4:8 : No columns selected for reference
+2024-04-13 19:17:32,129 : WARN  : main :  : Node : Numeric Scorer : 4:8 : No columns selected for reference
+2024-04-13 19:18:51,117 : WARN  : main :  : Node : Gradient Boosted Trees Learner (Regression) : 4:16 : 1 column(s) were ignored due to missing domain information: ["name"] -- change the node configuration or use a Domain Calculator node to fix it
+2024-04-13 19:18:51,585 : WARN  : main :  : Node : Gradient Boosted Trees Learner (Regression) : 4:16 : 1 column(s) were ignored due to missing domain information: ["name"] -- change the node configuration or use a Domain Calculator node to fix it
+2024-04-13 19:18:53,687 : WARN  : KNIME-Worker-48-Gradient Boosted Trees Learner (Regression) 4:16 :  : Node : Gradient Boosted Trees Learner (Regression) : 4:16 : 1 column(s) were ignored due to missing domain information: ["name"] -- change the node configuration or use a Domain Calculator node to fix it

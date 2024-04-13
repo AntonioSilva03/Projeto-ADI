@@ -396,13 +396,13 @@
                 <config key="1">
                     <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
                     <config key="org.knime.core.data.def.StringCell">
-                        <entry key="StringCell" type="xstring" value="0s=suspect Blood Donor"/>
+                        <entry key="StringCell" type="xstring" value="3=Cirrhosis"/>
                     </config>
                 </config>
                 <config key="2">
                     <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
                     <config key="org.knime.core.data.def.StringCell">
-                        <entry key="StringCell" type="xstring" value="1=Hepatitis"/>
+                        <entry key="StringCell" type="xstring" value="0s=suspect Blood Donor"/>
                     </config>
                 </config>
                 <config key="3">
@@ -414,7 +414,7 @@
                 <config key="4">
                     <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
                     <config key="org.knime.core.data.def.StringCell">
-                        <entry key="StringCell" type="xstring" value="3=Cirrhosis"/>
+                        <entry key="StringCell" type="xstring" value="1=Hepatitis"/>
                     </config>
                 </config>
             </config>
@@ -434,13 +434,13 @@
             <config key="lower_bound">
                 <entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
                 <config key="org.knime.core.data.def.DoubleCell">
-                    <entry key="DoubleCell" type="xdouble" value="0.9999621895046759"/>
+                    <entry key="DoubleCell" type="xdouble" value="0.4186661501739534"/>
                 </config>
             </config>
             <config key="upper_bound">
                 <entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
                 <config key="org.knime.core.data.def.DoubleCell">
-                    <entry key="DoubleCell" type="xdouble" value="0.9999984218675657"/>
+                    <entry key="DoubleCell" type="xdouble" value="0.9999986873508577"/>
                 </config>
             </config>
         </config>
