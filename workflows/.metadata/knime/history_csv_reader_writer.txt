@@ -1,10 +1,10 @@
-C:\Users\Diogo Barros\OneDrive - Universidade do Minho\Ambiente de Trabalho\3ºANO\2_Semestre\ADI\adi-learning-models\workflows\datasets\cardekho.csv
-C:\Users\Diogo Barros\OneDrive - Universidade do Minho\Ambiente de Trabalho\3ºANO\2_Semestre\ADI\adi-learning-models\workflows\datasets\Australian Vehicle Prices.csv\Australian Vehicle Prices.csv
-C:\Users\Diogo Barros\OneDrive - Universidade do Minho\Ambiente de Trabalho\3ºANO\2_Semestre\ADI\adi-learning-models\workflows\datasets\Housing_Price_Data.csv
-C:\Users\Diogo Barros\OneDrive - Universidade do Minho\Ambiente de Trabalho\3ºANO\2_Semestre\ADI\adi-learning-models\workflows\datasets\car_price.csv
-C:\Users\Diogo Barros\OneDrive - Universidade do Minho\Ambiente de Trabalho\3ºANO\2_Semestre\ADI\adi-learning-models\workflows\datasets\diamonds.csv\diamonds.csv
-C:\Users\Diogo Barros\OneDrive - Universidade do Minho\Ambiente de Trabalho\3ºANO\2_Semestre\ADI\adi-learning-models\workflows\datasets\car_prediction_data.csv
-../datasets/hcv/hcv.csv
-C:\Users\Diogo Barros\OneDrive - Universidade do Minho\Ambiente de Trabalho\3ºANO\2_Semestre\ADI\adi-learning-models\workflows\datasets\ObesityDataSet.csv
-C:\Users\Diogo Barros\OneDrive - Universidade do Minho\Ambiente de Trabalho\3ºANO\2_Semestre\ADI\adi-learning-models\workflows\datasets\archive\Stats survey.csv
-C:\Users\anton\Downloads\heart_failure_clinical_records_dataset.csv
+C:\Users\Diogo Barros\OneDrive - Universidade do Minho\Ambiente de Trabalho\3ºANO\2_Semestre\ADI\adi-learning-models\workflows\datasets\CARS.csv
+C:\Users\Diogo Barros\OneDrive - Universidade do Minho\Ambiente de Trabalho\3ºANO\2_Semestre\ADI\adi-learning-models\workflows\datasets\final_cars_datasets.csv
+C:\Users\Diogo Barros\OneDrive - Universidade do Minho\Ambiente de Trabalho\3ºANO\2_Semestre\ADI\adi-learning-models\workflows\datasets\USA_cars_datasets.csv
+C:\Users\Diogo Barros\OneDrive - Universidade do Minho\Ambiente de Trabalho\3ºANO\2_Semestre\ADI\adi-learning-models\workflows\datasets\Sport car price.csv
+C:\Users\Diogo Barros\OneDrive - Universidade do Minho\Ambiente de Trabalho\3ºANO\2_Semestre\ADI\adi-learning-models\workflows\datasets\spotify-2023.csv
+C:\Users\Diogo Barros\OneDrive - Universidade do Minho\Ambiente de Trabalho\3ºANO\2_Semestre\ADI\adi-learning-models\workflows\datasets\1.04. Real-life example.csv
+C:\Users\Diogo Barros\OneDrive - Universidade do Minho\Ambiente de Trabalho\3ºANO\2_Semestre\ADI\adi-learning-models\workflows\datasets\Housing.csv
+C:\Users\Diogo Barros\OneDrive - Universidade do Minho\Ambiente de Trabalho\3ºANO\2_Semestre\ADI\adi-learning-models\workflows\datasets\Shoe prices.csv
+C:\Users\Diogo Barros\OneDrive - Universidade do Minho\Ambiente de Trabalho\3ºANO\2_Semestre\ADI\adi-learning-models\workflows\datasets\Laptops.csv
+C:\Users\Diogo Barros\OneDrive - Universidade do Minho\Ambiente de Trabalho\3ºANO\2_Semestre\ADI\adi-learning-models\workflows\datasets\TELEVISION.csv
