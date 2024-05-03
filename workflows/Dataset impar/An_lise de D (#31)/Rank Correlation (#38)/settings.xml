@@ -78,6 +78,10 @@
     </config>
     <entry key="customDescription" type="xstring" isnull="true" value=""/>
     <entry key="state" type="xstring" value="EXECUTED"/>
+    <config key="nodecontainer_message">
+        <entry key="type" type="xstring" value="WARNING"/>
+        <entry key="message" type="xstring" value="Rows containing missing values are filtered. Please resolve them with the Missing Value node."/>
+    </config>
     <entry key="factory" type="xstring" value="org.knime.base.node.stats.correlation.rank2.RankCorrelationCompute2NodeFactory"/>
     <entry key="node-name" type="xstring" value="Rank Correlation"/>
     <entry key="node-bundle-name" type="xstring" value="KNIME Statistic Nodes"/>
@@ -136,6 +140,6 @@
     </config>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" value="d2066262-85a1-46e3-92e9-2b9b57d7bda5"/>
+        <entry key="file_store_id" type="xstring" value="74a18251-f792-43fa-bd21-2d85a859336b"/>
     </config>
 </config>

@@ -296,7 +296,7 @@
                 <config key="upper_bound">
                     <entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
                     <config key="org.knime.core.data.def.DoubleCell">
-                        <entry key="DoubleCell" type="xdouble" value="209.0"/>
+                        <entry key="DoubleCell" type="xdouble" value="254.0"/>
                     </config>
                 </config>
             </config>
@@ -421,7 +421,7 @@
                 <config key="upper_bound">
                     <entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
                     <config key="org.knime.core.data.def.DoubleCell">
-                        <entry key="DoubleCell" type="xdouble" value="86.5"/>
+                        <entry key="DoubleCell" type="xdouble" value="90.0"/>
                     </config>
                 </config>
             </config>
@@ -486,13 +486,13 @@
         <config key="1">
             <entry key="datacell" type="xstring" value="org.knime.core.data.def.IntCell"/>
             <config key="org.knime.core.data.def.IntCell">
-                <entry key="IntCell" type="xint" value="23"/>
+                <entry key="IntCell" type="xint" value="19"/>
             </config>
         </config>
         <config key="2">
             <entry key="datacell" type="xstring" value="org.knime.core.data.def.IntCell"/>
             <config key="org.knime.core.data.def.IntCell">
-                <entry key="IntCell" type="xint" value="1944"/>
+                <entry key="IntCell" type="xint" value="1943"/>
             </config>
         </config>
         <config key="3">
@@ -524,7 +524,7 @@
         <config key="8">
             <entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
             <config key="org.knime.core.data.def.DoubleCell">
-                <entry key="DoubleCell" type="xdouble" value="19.1"/>
+                <entry key="DoubleCell" type="xdouble" value="11.3"/>
             </config>
         </config>
         <config key="9">
@@ -585,19 +585,19 @@
         <config key="0">
             <entry key="datacell" type="xstring" value="org.knime.core.data.def.IntCell"/>
             <config key="org.knime.core.data.def.IntCell">
-                <entry key="IntCell" type="xint" value="613"/>
+                <entry key="IntCell" type="xint" value="615"/>
             </config>
         </config>
         <config key="1">
             <entry key="datacell" type="xstring" value="org.knime.core.data.def.IntCell"/>
             <config key="org.knime.core.data.def.IntCell">
-                <entry key="IntCell" type="xint" value="76"/>
+                <entry key="IntCell" type="xint" value="77"/>
             </config>
         </config>
         <config key="2">
             <entry key="datacell" type="xstring" value="org.knime.core.data.def.IntCell"/>
             <config key="org.knime.core.data.def.IntCell">
-                <entry key="IntCell" type="xint" value="1997"/>
+                <entry key="IntCell" type="xint" value="2001"/>
             </config>
         </config>
         <config key="3">
@@ -647,7 +647,7 @@
         <config key="11">
             <entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
             <config key="org.knime.core.data.def.DoubleCell">
-                <entry key="DoubleCell" type="xdouble" value="209.0"/>
+                <entry key="DoubleCell" type="xdouble" value="254.0"/>
             </config>
         </config>
         <config key="12">
@@ -677,7 +677,7 @@
         <config key="16">
             <entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
             <config key="org.knime.core.data.def.DoubleCell">
-                <entry key="DoubleCell" type="xdouble" value="86.5"/>
+                <entry key="DoubleCell" type="xdouble" value="90.0"/>
             </config>
         </config>
         <config key="17">
@@ -696,13 +696,13 @@
         <config key="1">
             <entry key="datacell" type="xstring" value="org.knime.core.data.def.IntCell"/>
             <config key="org.knime.core.data.def.IntCell">
-                <entry key="IntCell" type="xint" value="23"/>
+                <entry key="IntCell" type="xint" value="19"/>
             </config>
         </config>
         <config key="2">
             <entry key="datacell" type="xstring" value="org.knime.core.data.def.IntCell"/>
             <config key="org.knime.core.data.def.IntCell">
-                <entry key="IntCell" type="xint" value="1944"/>
+                <entry key="IntCell" type="xint" value="1943"/>
             </config>
         </config>
         <config key="3">
@@ -734,7 +734,7 @@
         <config key="8">
             <entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
             <config key="org.knime.core.data.def.DoubleCell">
-                <entry key="DoubleCell" type="xdouble" value="19.1"/>
+                <entry key="DoubleCell" type="xdouble" value="11.3"/>
             </config>
         </config>
         <config key="9">
@@ -795,19 +795,19 @@
         <config key="0">
             <entry key="datacell" type="xstring" value="org.knime.core.data.def.IntCell"/>
             <config key="org.knime.core.data.def.IntCell">
-                <entry key="IntCell" type="xint" value="613"/>
+                <entry key="IntCell" type="xint" value="615"/>
             </config>
         </config>
         <config key="1">
             <entry key="datacell" type="xstring" value="org.knime.core.data.def.IntCell"/>
             <config key="org.knime.core.data.def.IntCell">
-                <entry key="IntCell" type="xint" value="76"/>
+                <entry key="IntCell" type="xint" value="77"/>
             </config>
         </config>
         <config key="2">
             <entry key="datacell" type="xstring" value="org.knime.core.data.def.IntCell"/>
             <config key="org.knime.core.data.def.IntCell">
-                <entry key="IntCell" type="xint" value="1997"/>
+                <entry key="IntCell" type="xint" value="2001"/>
             </config>
         </config>
         <config key="3">
@@ -857,7 +857,7 @@
         <config key="11">
             <entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
             <config key="org.knime.core.data.def.DoubleCell">
-                <entry key="DoubleCell" type="xdouble" value="209.0"/>
+                <entry key="DoubleCell" type="xdouble" value="254.0"/>
             </config>
         </config>
         <config key="12">
@@ -887,7 +887,7 @@
         <config key="16">
             <entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
             <config key="org.knime.core.data.def.DoubleCell">
-                <entry key="DoubleCell" type="xdouble" value="86.5"/>
+                <entry key="DoubleCell" type="xdouble" value="90.0"/>
             </config>
         </config>
         <config key="17">
@@ -897,44 +897,44 @@
     </config>
     <config key="mean">
         <entry key="array-size" type="xint" value="18"/>
-        <entry key="0" type="xdouble" value="299.3376146788993"/>
-        <entry key="1" type="xdouble" value="47.43853211009173"/>
-        <entry key="2" type="xdouble" value="1972.5614678899078"/>
-        <entry key="3" type="xdouble" value="6.733944954128443"/>
-        <entry key="4" type="xdouble" value="16.01100917431192"/>
+        <entry key="0" type="xdouble" value="308.0"/>
+        <entry key="1" type="xdouble" value="47.40813008130084"/>
+        <entry key="2" type="xdouble" value="1972.5918699186993"/>
+        <entry key="3" type="xdouble" value="6.6878048780487775"/>
+        <entry key="4" type="xdouble" value="16.08130081300814"/>
         <entry key="5" type="xdouble" value="NaN"/>
         <entry key="6" type="xdouble" value="NaN"/>
-        <entry key="7" type="xdouble" value="41.62311926605507"/>
-        <entry key="8" type="xdouble" value="68.11816513761478"/>
-        <entry key="9" type="xdouble" value="26.80073394495412"/>
-        <entry key="10" type="xdouble" value="33.427155963302745"/>
-        <entry key="11" type="xdouble" value="11.126422018348618"/>
-        <entry key="12" type="xdouble" value="8.205981651376144"/>
-        <entry key="13" type="xdouble" value="5.3934311926605485"/>
-        <entry key="14" type="xdouble" value="81.65027522935777"/>
-        <entry key="15" type="xdouble" value="37.33798165137616"/>
-        <entry key="16" type="xdouble" value="71.85045871559633"/>
+        <entry key="7" type="xdouble" value="41.6201954397394"/>
+        <entry key="8" type="xdouble" value="68.28391959798996"/>
+        <entry key="9" type="xdouble" value="28.450814332247536"/>
+        <entry key="10" type="xdouble" value="34.78634146341462"/>
+        <entry key="11" type="xdouble" value="11.396747967479666"/>
+        <entry key="12" type="xdouble" value="8.196634146341458"/>
+        <entry key="13" type="xdouble" value="5.368099173553731"/>
+        <entry key="14" type="xdouble" value="81.28780487804875"/>
+        <entry key="15" type="xdouble" value="39.53317073170729"/>
+        <entry key="16" type="xdouble" value="72.04413680781757"/>
         <entry key="17" type="xdouble" value="NaN"/>
     </config>
     <config key="variance">
         <entry key="array-size" type="xint" value="18"/>
-        <entry key="0" type="xdouble" value="30089.56963032917"/>
-        <entry key="1" type="xdouble" value="97.13270372369144"/>
-        <entry key="2" type="xdouble" value="97.13270372369767"/>
-        <entry key="3" type="xdouble" value="10.19195223961145"/>
-        <entry key="4" type="xdouble" value="72.8454668105774"/>
+        <entry key="0" type="xdouble" value="31570.0"/>
+        <entry key="1" type="xdouble" value="101.10514552051066"/>
+        <entry key="2" type="xdouble" value="101.10514552050968"/>
+        <entry key="3" type="xdouble" value="10.117359180106464"/>
+        <entry key="4" type="xdouble" value="72.13670188819161"/>
         <entry key="5" type="xdouble" value="NaN"/>
         <entry key="6" type="xdouble" value="NaN"/>
-        <entry key="7" type="xdouble" value="34.10093510523478"/>
-        <entry key="8" type="xdouble" value="683.214283391797"/>
-        <entry key="9" type="xdouble" value="457.9048891662169"/>
-        <entry key="10" type="xdouble" value="1020.3916876686455"/>
-        <entry key="11" type="xdouble" value="322.7790432406909"/>
-        <entry key="12" type="xdouble" value="4.786024815839179"/>
-        <entry key="13" type="xdouble" value="1.2874405949811112"/>
-        <entry key="14" type="xdouble" value="2749.689305990285"/>
-        <entry key="15" type="xdouble" value="2799.6608525364272"/>
-        <entry key="16" type="xdouble" value="28.92338673772263"/>
+        <entry key="7" type="xdouble" value="33.41567630758108"/>
+        <entry key="8" type="xdouble" value="677.4731973626522"/>
+        <entry key="9" type="xdouble" value="648.7050482754225"/>
+        <entry key="10" type="xdouble" value="1094.9937870819097"/>
+        <entry key="11" type="xdouble" value="387.0328232832817"/>
+        <entry key="12" type="xdouble" value="4.864923994597597"/>
+        <entry key="13" type="xdouble" value="1.2830736987575955"/>
+        <entry key="14" type="xdouble" value="2475.676056248509"/>
+        <entry key="15" type="xdouble" value="2987.8327089854615"/>
+        <entry key="16" type="xdouble" value="29.1884729078436"/>
         <entry key="17" type="xdouble" value="NaN"/>
     </config>
     <config key="median">
@@ -967,16 +967,16 @@
         <entry key="4" type="xint" value="0"/>
         <entry key="5" type="xint" value="0"/>
         <entry key="6" type="xint" value="0"/>
-        <entry key="7" type="xint" value="0"/>
-        <entry key="8" type="xint" value="0"/>
-        <entry key="9" type="xint" value="0"/>
+        <entry key="7" type="xint" value="1"/>
+        <entry key="8" type="xint" value="18"/>
+        <entry key="9" type="xint" value="1"/>
         <entry key="10" type="xint" value="0"/>
         <entry key="11" type="xint" value="0"/>
         <entry key="12" type="xint" value="0"/>
-        <entry key="13" type="xint" value="0"/>
+        <entry key="13" type="xint" value="10"/>
         <entry key="14" type="xint" value="0"/>
         <entry key="15" type="xint" value="0"/>
-        <entry key="16" type="xint" value="0"/>
+        <entry key="16" type="xint" value="1"/>
         <entry key="17" type="xint" value="0"/>
     </config>
     <config key="nans">
@@ -1044,66 +1044,66 @@
     </config>
     <config key="sums">
         <entry key="array-size" type="xint" value="18"/>
-        <entry key="0" type="xdouble" value="163139.00000000012"/>
-        <entry key="1" type="xdouble" value="25853.999999999993"/>
-        <entry key="2" type="xdouble" value="1075045.9999999998"/>
-        <entry key="3" type="xdouble" value="3670.0000000000014"/>
-        <entry key="4" type="xdouble" value="8725.999999999996"/>
+        <entry key="0" type="xdouble" value="189420.0"/>
+        <entry key="1" type="xdouble" value="29156.00000000002"/>
+        <entry key="2" type="xdouble" value="1213144.0"/>
+        <entry key="3" type="xdouble" value="4112.999999999998"/>
+        <entry key="4" type="xdouble" value="9890.000000000007"/>
         <entry key="5" type="xdouble" value="0.0"/>
         <entry key="6" type="xdouble" value="0.0"/>
-        <entry key="7" type="xdouble" value="22684.600000000013"/>
-        <entry key="8" type="xdouble" value="37124.40000000005"/>
-        <entry key="9" type="xdouble" value="14606.399999999996"/>
-        <entry key="10" type="xdouble" value="18217.799999999996"/>
-        <entry key="11" type="xdouble" value="6063.899999999997"/>
-        <entry key="12" type="xdouble" value="4472.259999999998"/>
-        <entry key="13" type="xdouble" value="2939.4199999999987"/>
-        <entry key="14" type="xdouble" value="44499.39999999999"/>
-        <entry key="15" type="xdouble" value="20349.200000000008"/>
-        <entry key="16" type="xdouble" value="39158.5"/>
+        <entry key="7" type="xdouble" value="25554.79999999999"/>
+        <entry key="8" type="xdouble" value="40765.50000000001"/>
+        <entry key="9" type="xdouble" value="17468.79999999999"/>
+        <entry key="10" type="xdouble" value="21393.59999999999"/>
+        <entry key="11" type="xdouble" value="7008.9999999999945"/>
+        <entry key="12" type="xdouble" value="5040.929999999997"/>
+        <entry key="13" type="xdouble" value="3247.7000000000075"/>
+        <entry key="14" type="xdouble" value="49991.99999999998"/>
+        <entry key="15" type="xdouble" value="24312.89999999998"/>
+        <entry key="16" type="xdouble" value="44235.099999999984"/>
         <entry key="17" type="xdouble" value="0.0"/>
     </config>
     <config key="skewness">
         <entry key="array-size" type="xint" value="18"/>
-        <entry key="0" type="xdouble" value="0.03669433989497387"/>
-        <entry key="1" type="xdouble" value="0.2622453025193411"/>
-        <entry key="2" type="xdouble" value="-0.2622453025193638"/>
-        <entry key="3" type="xdouble" value="-0.10611377796891862"/>
-        <entry key="4" type="xdouble" value="0.03875936174506515"/>
+        <entry key="0" type="xdouble" value="0.0"/>
+        <entry key="1" type="xdouble" value="0.26713449158038133"/>
+        <entry key="2" type="xdouble" value="-0.2671344915803648"/>
+        <entry key="3" type="xdouble" value="-0.08932061627614862"/>
+        <entry key="4" type="xdouble" value="0.022446917741039955"/>
         <entry key="5" type="xdouble" value="NaN"/>
         <entry key="6" type="xdouble" value="NaN"/>
-        <entry key="7" type="xdouble" value="-0.08019266133361766"/>
-        <entry key="8" type="xdouble" value="4.99301128600291"/>
-        <entry key="9" type="xdouble" value="6.792328739952088"/>
-        <entry key="10" type="xdouble" value="5.409419137975525"/>
-        <entry key="11" type="xdouble" value="7.926096564865614"/>
-        <entry key="12" type="xdouble" value="-0.04648829590397469"/>
-        <entry key="13" type="xdouble" value="0.3503378817574231"/>
-        <entry key="14" type="xdouble" value="14.607275490909307"/>
-        <entry key="15" type="xdouble" value="6.27096112459851"/>
-        <entry key="16" type="xdouble" value="-1.097463364188644"/>
+        <entry key="7" type="xdouble" value="-0.17676758913402732"/>
+        <entry key="8" type="xdouble" value="4.654920650234632"/>
+        <entry key="9" type="xdouble" value="5.506113537258187"/>
+        <entry key="10" type="xdouble" value="4.940326985589487"/>
+        <entry key="11" type="xdouble" value="8.385436707897524"/>
+        <entry key="12" type="xdouble" value="-0.11023271035660089"/>
+        <entry key="13" type="xdouble" value="0.37582755477045754"/>
+        <entry key="14" type="xdouble" value="15.169291145044491"/>
+        <entry key="15" type="xdouble" value="5.632734058440101"/>
+        <entry key="16" type="xdouble" value="-0.9636873886414515"/>
         <entry key="17" type="xdouble" value="NaN"/>
     </config>
     <config key="kurtosis">
         <entry key="array-size" type="xint" value="18"/>
-        <entry key="0" type="xdouble" value="-1.1833048839925668"/>
-        <entry key="1" type="xdouble" value="-0.52669286986069"/>
-        <entry key="2" type="xdouble" value="-0.5266928698607115"/>
-        <entry key="3" type="xdouble" value="-1.0795148249440096"/>
-        <entry key="4" type="xdouble" value="-1.0942037353689962"/>
+        <entry key="0" type="xdouble" value="-1.1999999999999997"/>
+        <entry key="1" type="xdouble" value="-0.38647336038833263"/>
+        <entry key="2" type="xdouble" value="-0.3864733603883177"/>
+        <entry key="3" type="xdouble" value="-1.088114370130482"/>
+        <entry key="4" type="xdouble" value="-1.084279367509532"/>
         <entry key="5" type="xdouble" value="NaN"/>
         <entry key="6" type="xdouble" value="NaN"/>
-        <entry key="7" type="xdouble" value="6.210805721584673"/>
-        <entry key="8" type="xdouble" value="59.30001252667633"/>
-        <entry key="9" type="xdouble" value="79.39159848892054"/>
-        <entry key="10" type="xdouble" value="36.44129839088811"/>
-        <entry key="11" type="xdouble" value="75.70922900748124"/>
-        <entry key="12" type="xdouble" value="1.4095306079141219"/>
-        <entry key="13" type="xdouble" value="0.7185480485396816"/>
-        <entry key="14" type="xdouble" value="255.92230778471628"/>
-        <entry key="15" type="xdouble" value="53.27819677258952"/>
-        <entry key="16" type="xdouble" value="3.7720615964390363"/>
+        <entry key="7" type="xdouble" value="5.983300564289556"/>
+        <entry key="8" type="xdouble" value="54.97290503258289"/>
+        <entry key="9" type="xdouble" value="47.129261336602426"/>
+        <entry key="10" type="xdouble" value="30.836640756669315"/>
+        <entry key="11" type="xdouble" value="83.18673190547408"/>
+        <entry key="12" type="xdouble" value="1.314730095893729"/>
+        <entry key="13" type="xdouble" value="0.6940228940258275"/>
+        <entry key="14" type="xdouble" value="280.1002373694028"/>
+        <entry key="15" type="xdouble" value="43.71257909127119"/>
+        <entry key="16" type="xdouble" value="3.544529195543625"/>
         <entry key="17" type="xdouble" value="NaN"/>
     </config>
-    <entry key="row_count" type="xint" value="545"/>
+    <entry key="row_count" type="xint" value="615"/>
 </config>

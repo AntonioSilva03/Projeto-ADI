@@ -21,16 +21,16 @@
             <entry key="EnabledStatus" type="xboolean" value="true"/>
         </config>
         <entry key="PieColName" type="xstring" value="Category"/>
-        <config key="aggrColumn_Internals">
-            <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
-            <entry key="EnabledStatus" type="xboolean" value="true"/>
-        </config>
-        <entry key="aggrColumn" type="xstring" value="Age"/>
         <config key="aggrMethod_Internals">
             <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
             <entry key="EnabledStatus" type="xboolean" value="true"/>
         </config>
         <entry key="aggrMethod" type="xstring" value="COUNT"/>
+        <config key="aggrColumn_Internals">
+            <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
+            <entry key="EnabledStatus" type="xboolean" value="true"/>
+        </config>
+        <entry key="aggrColumn" type="xstring" value="Age"/>
     </config>
     <config key="nodeAnnotation">
         <entry key="text" type="xstring" value="Para ver percentagens"/>
@@ -66,6 +66,6 @@
     <config key="ports"/>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" value="b5484e01-e66b-4d84-9245-cd073a661060"/>
+        <entry key="file_store_id" type="xstring" value="f6c0f301-2b31-4223-a4ed-81e842ae3bb1"/>
     </config>
 </config>

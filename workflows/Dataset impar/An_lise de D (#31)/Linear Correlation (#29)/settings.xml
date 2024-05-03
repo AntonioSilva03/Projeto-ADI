@@ -80,6 +80,10 @@
     </config>
     <entry key="customDescription" type="xstring" isnull="true" value=""/>
     <entry key="state" type="xstring" value="EXECUTED"/>
+    <config key="nodecontainer_message">
+        <entry key="type" type="xstring" value="WARNING"/>
+        <entry key="message" type="xstring" value="Some numeric column(s) contained missing values: &quot;CHOL&quot;, &quot;ALT&quot;, &quot;ALP&quot;, &quot;PROT&quot;, &lt;1 more&gt;..."/>
+    </config>
     <entry key="factory" type="xstring" value="org.knime.base.node.preproc.correlation.compute2.CorrelationCompute2NodeFactory"/>
     <entry key="node-name" type="xstring" value="Linear Correlation"/>
     <entry key="node-bundle-name" type="xstring" value="KNIME Base Nodes"/>
@@ -131,6 +135,6 @@
     </config>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" value="b16e9a50-8b4d-44b8-bbba-d2c60ed8d87d"/>
+        <entry key="file_store_id" type="xstring" value="1a33d203-b1b1-45c7-80f3-e0acd93281dd"/>
     </config>
 </config>

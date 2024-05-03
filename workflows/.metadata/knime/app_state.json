@@ -8,5 +8,13 @@
       "spaceId" : "local",
       "relativePath" : "Dataset impar"
     }
+  }, {
+    "name" : "Dataset Grupo",
+    "active" : false,
+    "origin" : {
+      "providerId" : "local",
+      "spaceId" : "local",
+      "relativePath" : "Dataset Grupo"
+    }
   } ]
 }

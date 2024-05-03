@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <workflow-metadata content-type="text/plain" xmlns="http://www.knime.org/core/node/workflow/metadata/v1.0">
-    <last-modified>2024-03-16T16:53:44.786Z</last-modified>
-    <description>Tentar adivinhar a Category a partir dos valores:
-Sex, Age, ALB, ALP, ALT, AST, BIL, CHE, CHOL, CREA, GGT e PROT
+    <last-modified>2024-04-23T00:57:58.281+01:00</last-modified>
+    <description>
 </description>
 </workflow-metadata>

@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="viewRepresentation">
+    <config key="keystore">
+        <entry key="dimensions" type="xint" value="5"/>
+        <config key="store_0_0">
+            <entry key="array-size" type="xint" value="159"/>
+            <entry key="0" type="xstring" value="Row0"/>
+            <entry key="1" type="xstring" value="Row2"/>
+            <entry key="2" type="xstring" value="Row3"/>
+            <entry key="3" type="xstring" value="Row5"/>
+            <entry key="4" type="xstring" value="Row6"/>
+            <entry key="5" type="xstring" value="Row13"/>
+            <entry key="6" type="xstring" value="Row14"/>
+            <entry key="7" type="xstring" value="Row19"/>
+            <entry key="8" type="xstring" value="Row21"/>
+            <entry key="9" type="xstring" value="Row22"/>
+            <entry key="10" type="xstring" value="Row24"/>
+            <entry key="11" type="xstring" value="Row27"/>
+            <entry key="12" type="xstring" value="Row30"/>
+            <entry key="13" type="xstring" value="Row31"/>
+            <entry key="14" type="xstring" value="Row35"/>
+            <entry key="15" type="xstring" value="Row38"/>
+            <entry key="16" type="xstring" value="Row39"/>
+            <entry key="17" type="xstring" value="Row42"/>
+            <entry key="18" type="xstring" value="Row43"/>
+            <entry key="19" type="xstring" value="Row47"/>
+            <entry key="20" type="xstring" value="Row49"/>
+            <entry key="21" type="xstring" value="Row52"/>
+            <entry key="22" type="xstring" value="Row53"/>
+            <entry key="23" type="xstring" value="Row54"/>
+            <entry key="24" type="xstring" value="Row58"/>
+            <entry key="25" type="xstring" value="Row59"/>
+            <entry key="26" type="xstring" value="Row62"/>
+            <entry key="27" type="xstring" value="Row64"/>
+            <entry key="28" type="xstring" value="Row66"/>
+            <entry key="29" type="xstring" value="Row69"/>
+            <entry key="30" type="xstring" value="Row76"/>
+            <entry key="31" type="xstring" value="Row77"/>
+            <entry key="32" type="xstring" value="Row78"/>
+            <entry key="33" type="xstring" value="Row82"/>
+            <entry key="34" type="xstring" value="Row86"/>
+            <entry key="35" type="xstring" value="Row91"/>
+            <entry key="36" type="xstring" value="Row95"/>
+            <entry key="37" type="xstring" value="Row99"/>
+            <entry key="38" type="xstring" value="Row103"/>
+            <entry key="39" type="xstring" value="Row112"/>
+            <entry key="40" type="xstring" value="Row118"/>
+            <entry key="41" type="xstring" value="Row119"/>
+            <entry key="42" type="xstring" value="Row122"/>
+            <entry key="43" type="xstring" value="Row123"/>
+            <entry key="44" type="xstring" value="Row130"/>
+            <entry key="45" type="xstring" value="Row137"/>
+            <entry key="46" type="xstring" value="Row138"/>
+            <entry key="47" type="xstring" value="Row139"/>
+            <entry key="48" type="xstring" value="Row140"/>
+            <entry key="49" type="xstring" value="Row144"/>
+            <entry key="50" type="xstring" value="Row145"/>
+            <entry key="51" type="xstring" value="Row148"/>
+            <entry key="52" type="xstring" value="Row155"/>
+            <entry key="53" type="xstring" value="Row156"/>
+            <entry key="54" type="xstring" value="Row167"/>
+            <entry key="55" type="xstring" value="Row171"/>
+            <entry key="56" type="xstring" value="Row177"/>
+            <entry key="57" type="xstring" value="Row178"/>
+            <entry key="58" type="xstring" value="Row180"/>
+            <entry key="59" type="xstring" value="Row185"/>
+            <entry key="60" type="xstring" value="Row189"/>
+            <entry key="61" type="xstring" value="Row197"/>
+            <entry key="62" type="xstring" value="Row200"/>
+            <entry key="63" type="xstring" value="Row203"/>
+            <entry key="64" type="xstring" value="Row204"/>
+            <entry key="65" type="xstring" value="Row206"/>
+            <entry key="66" type="xstring" value="Row207"/>
+            <entry key="67" type="xstring" value="Row208"/>
+            <entry key="68" type="xstring" value="Row209"/>
+            <entry key="69" type="xstring" value="Row211"/>
+            <entry key="70" type="xstring" value="Row216"/>
+            <entry key="71" type="xstring" value="Row222"/>
+            <entry key="72" type="xstring" value="Row223"/>
+            <entry key="73" type="xstring" value="Row224"/>
+            <entry key="74" type="xstring" value="Row228"/>
+            <entry key="75" type="xstring" value="Row230"/>
+            <entry key="76" type="xstring" value="Row241"/>
+            <entry key="77" type="xstring" value="Row242"/>
+            <entry key="78" type="xstring" value="Row250"/>
+            <entry key="79" type="xstring" value="Row251"/>
+            <entry key="80" type="xstring" value="Row253"/>
+            <entry key="81" type="xstring" value="Row255"/>
+            <entry key="82" type="xstring" value="Row259"/>
+            <entry key="83" type="xstring" value="Row260"/>
+            <entry key="84" type="xstring" value="Row267"/>
+            <entry key="85" type="xstring" value="Row268"/>
+            <entry key="86" type="xstring" value="Row270"/>
+            <entry key="87" type="xstring" value="Row271"/>
+            <entry key="88" type="xstring" value="Row273"/>
+            <entry key="89" type="xstring" value="Row276"/>
+            <entry key="90" type="xstring" value="Row278"/>
+            <entry key="91" type="xstring" value="Row279"/>
+            <entry key="92" type="xstring" value="Row282"/>
+            <entry key="93" type="xstring" value="Row285"/>
+            <entry key="94" type="xstring" value="Row288"/>
+            <entry key="95" type="xstring" value="Row289"/>
+            <entry key="96" type="xstring" value="Row290"/>
+            <entry key="97" type="xstring" value="Row298"/>
+            <entry key="98" type="xstring" value="Row300"/>
+            <entry key="99" type="xstring" value="Row306"/>
+            <entry key="100" type="xstring" value="Row311"/>
+            <entry key="101" type="xstring" value="Row312"/>
+            <entry key="102" type="xstring" value="Row314"/>
+            <entry key="103" type="xstring" value="Row316"/>
+            <entry key="104" type="xstring" value="Row319"/>
+            <entry key="105" type="xstring" value="Row322"/>
+            <entry key="106" type="xstring" value="Row325"/>
+            <entry key="107" type="xstring" value="Row334"/>
+            <entry key="108" type="xstring" value="Row342"/>
+            <entry key="109" type="xstring" value="Row343"/>
+            <entry key="110" type="xstring" value="Row344"/>
+            <entry key="111" type="xstring" value="Row348"/>
+            <entry key="112" type="xstring" value="Row352"/>
+            <entry key="113" type="xstring" value="Row355"/>
+            <entry key="114" type="xstring" value="Row356"/>
+            <entry key="115" type="xstring" value="Row357"/>
+            <entry key="116" type="xstring" value="Row360"/>
+            <entry key="117" type="xstring" value="Row363"/>
+            <entry key="118" type="xstring" value="Row365"/>
+            <entry key="119" type="xstring" value="Row382"/>
+            <entry key="120" type="xstring" value="Row388"/>
+            <entry key="121" type="xstring" value="Row391"/>
+            <entry key="122" type="xstring" value="Row392"/>
+            <entry key="123" type="xstring" value="Row395"/>
+            <entry key="124" type="xstring" value="Row397"/>
+            <entry key="125" type="xstring" value="Row400"/>
+            <entry key="126" type="xstring" value="Row402"/>
+            <entry key="127" type="xstring" value="Row407"/>
+            <entry key="128" type="xstring" value="Row408"/>
+            <entry key="129" type="xstring" value="Row420"/>
+            <entry key="130" type="xstring" value="Row422"/>
+            <entry key="131" type="xstring" value="Row425"/>
+            <entry key="132" type="xstring" value="Row426"/>
+            <entry key="133" type="xstring" value="Row427"/>
+            <entry key="134" type="xstring" value="Row436"/>
+            <entry key="135" type="xstring" value="Row444"/>
+            <entry key="136" type="xstring" value="Row445"/>
+            <entry key="137" type="xstring" value="Row456"/>
+            <entry key="138" type="xstring" value="Row458"/>
+            <entry key="139" type="xstring" value="Row460"/>
+            <entry key="140" type="xstring" value="Row465"/>
+            <entry key="141" type="xstring" value="Row469"/>
+            <entry key="142" type="xstring" value="Row472"/>
+            <entry key="143" type="xstring" value="Row478"/>
+            <entry key="144" type="xstring" value="Row480"/>
+            <entry key="145" type="xstring" value="Row481"/>
+            <entry key="146" type="xstring" value="Row482"/>
+            <entry key="147" type="xstring" value="Row483"/>
+            <entry key="148" type="xstring" value="Row485"/>
+            <entry key="149" type="xstring" value="Row492"/>
+            <entry key="150" type="xstring" value="Row494"/>
+            <entry key="151" type="xstring" value="Row499"/>
+            <entry key="152" type="xstring" value="Row503"/>
+            <entry key="153" type="xstring" value="Row505"/>
+            <entry key="154" type="xstring" value="Row519"/>
+            <entry key="155" type="xstring" value="Row521"/>
+            <entry key="156" type="xstring" value="Row528"/>
+            <entry key="157" type="xstring" value="Row530"/>
+            <entry key="158" type="xstring" value="Row532"/>
+        </config>
+        <config key="store_0_1">
+            <entry key="array-size" type="xint" value="0"/>
+        </config>
+        <config key="store_0_2">
+            <entry key="array-size" type="xint" value="1"/>
+            <entry key="0" type="xstring" value="Row23"/>
+        </config>
+        <config key="store_0_3">
+            <entry key="array-size" type="xint" value="0"/>
+        </config>
+        <config key="store_0_4">
+            <entry key="array-size" type="xint" value="0"/>
+        </config>
+        <config key="store_1_0">
+            <entry key="array-size" type="xint" value="2"/>
+            <entry key="0" type="xstring" value="Row534"/>
+            <entry key="1" type="xstring" value="Row535"/>
+        </config>
+        <config key="store_1_1">
+            <entry key="array-size" type="xint" value="0"/>
+        </config>
+        <config key="store_1_2">
+            <entry key="array-size" type="xint" value="0"/>
+        </config>
+        <config key="store_1_3">
+            <entry key="array-size" type="xint" value="0"/>
+        </config>
+        <config key="store_1_4">
+            <entry key="array-size" type="xint" value="0"/>
+        </config>
+        <config key="store_2_0">
+            <entry key="array-size" type="xint" value="2"/>
+            <entry key="0" type="xstring" value="Row540"/>
+            <entry key="1" type="xstring" value="Row556"/>
+        </config>
+        <config key="store_2_1">
+            <entry key="array-size" type="xint" value="0"/>
+        </config>
+        <config key="store_2_2">
+            <entry key="array-size" type="xint" value="2"/>
+            <entry key="0" type="xstring" value="Row543"/>
+            <entry key="1" type="xstring" value="Row551"/>
+        </config>
+        <config key="store_2_3">
+            <entry key="array-size" type="xint" value="3"/>
+            <entry key="0" type="xstring" value="Row541"/>
+            <entry key="1" type="xstring" value="Row552"/>
+            <entry key="2" type="xstring" value="Row553"/>
+        </config>
+        <config key="store_2_4">
+            <entry key="array-size" type="xint" value="0"/>
+        </config>
+        <config key="store_3_0">
+            <entry key="array-size" type="xint" value="2"/>
+            <entry key="0" type="xstring" value="Row569"/>
+            <entry key="1" type="xstring" value="Row571"/>
+        </config>
+        <config key="store_3_1">
+            <entry key="array-size" type="xint" value="0"/>
+        </config>
+        <config key="store_3_2">
+            <entry key="array-size" type="xint" value="1"/>
+            <entry key="0" type="xstring" value="Row572"/>
+        </config>
+        <config key="store_3_3">
+            <entry key="array-size" type="xint" value="2"/>
+            <entry key="0" type="xstring" value="Row565"/>
+            <entry key="1" type="xstring" value="Row584"/>
+        </config>
+        <config key="store_3_4">
+            <entry key="array-size" type="xint" value="1"/>
+            <entry key="0" type="xstring" value="Row582"/>
+        </config>
+        <config key="store_4_0">
+            <entry key="array-size" type="xint" value="1"/>
+            <entry key="0" type="xstring" value="Row607"/>
+        </config>
+        <config key="store_4_1">
+            <entry key="array-size" type="xint" value="0"/>
+        </config>
+        <config key="store_4_2">
+            <entry key="array-size" type="xint" value="2"/>
+            <entry key="0" type="xstring" value="Row602"/>
+            <entry key="1" type="xstring" value="Row609"/>
+        </config>
+        <config key="store_4_3">
+            <entry key="array-size" type="xint" value="1"/>
+            <entry key="0" type="xstring" value="Row608"/>
+        </config>
+        <config key="store_4_4">
+            <entry key="array-size" type="xint" value="6"/>
+            <entry key="0" type="xstring" value="Row595"/>
+            <entry key="1" type="xstring" value="Row597"/>
+            <entry key="2" type="xstring" value="Row601"/>
+            <entry key="3" type="xstring" value="Row604"/>
+            <entry key="4" type="xstring" value="Row610"/>
+            <entry key="5" type="xstring" value="Row612"/>
+        </config>
+    </config>
+    <entry key="warningMessage" type="xstring" value=""/>
+    <entry key="warningsInView" type="xboolean" value="true"/>
+    <entry key="headerColor" type="xstring" value="#FFF0C7"/>
+    <entry key="diagonalColor" type="xstring" value="#A6C0C5"/>
+    <entry key="displayFullscreenButton" type="xboolean" value="true"/>
+    <entry key="enableViewControls" type="xboolean" value="true"/>
+    <entry key="enableTitleEditing" type="xboolean" value="true"/>
+    <entry key="enableSubtitleEditing" type="xboolean" value="true"/>
+    <entry key="enableRowsNumberConfig" type="xboolean" value="true"/>
+    <entry key="enableConfusionMatrixRatesConfig" type="xboolean" value="true"/>
+    <entry key="enableClassStatisticsConfig" type="xboolean" value="true"/>
+    <entry key="enableOverallStatisticsConfig" type="xboolean" value="true"/>
+    <entry key="enableLabelsDisplayConfig" type="xboolean" value="true"/>
+</config>
